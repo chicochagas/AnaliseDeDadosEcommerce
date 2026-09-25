@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análise de E-commerce</title>
+<meta name="description" content="Dashboard de vendas, canais, produtos, clientes e concorrência de 13 dez 2025 a 11 jan 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+/* Tokens do design system "Retiro Tech" (https://claude.ai/artifact/5fqbmahyCigQUTbhhXiErZ).
+   Mesmos nomes de ../SiteRetiroTech/assets/css/styles.css. Só existe tema claro. */
+:root {
+  color-scheme: light;
+  --background: #F8FAFC;
+  --card: #FFFFFF;
+  --foreground: #1E293B;
+  --muted-foreground: #475569;
+  --primary: #2563EB;
+  --on-primary: #FFFFFF;
+  --primary-strong: #1D4ED8;
+  --muted: #E9EFF8;
+  --accent: #EA580C;          /* só preenchimento, nunca texto */
+  --on-accent: #000000;
+  --border: #E2E8F0;
+  --destructive: #DC2626;
+  --ring: var(--primary);
+
+  /* Série secundária dos gráficos (comparação de canais) */
+  --chart-secondary: #64748B;
+
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --space-2: 8px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-12: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-pill: 999px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { margin: 0; }
+p { margin: 0 0 var(--space-4); }
+a { color: var(--primary); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+
+/* Estilos de texto (type.groups do design system) */
+.display {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(34px, 7vw, 48px); line-height: 1.08; letter-spacing: -0.02em;
+  margin-bottom: var(--space-6);
+}
+.heading {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 28px; line-height: 34px; letter-spacing: -0.01em;
+  margin-bottom: var(--space-6);
+}
+.subheading {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 20px; line-height: 28px; margin-bottom: var(--space-2);
+}
+.caption { font-size: 13px; line-height: 18px; font-weight: 500; color: var(--muted-foreground); }
+.eyebrow {
+  display: block; font-size: 12px; line-height: 16px; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--primary);
+  margin-bottom: var(--space-2);
+}
+.section--muted .eyebrow { color: var(--primary-strong); }
+.lead { color: var(--muted-foreground); max-width: 68ch; }
+
+/* Layout */
+.container { max-width: 1120px; margin: 0 auto; padding: 0 var(--space-4); }
+.section { padding: var(--space-12) 0; }
+.section--muted { background: var(--muted); }
+.grid { display: grid; gap: var(--space-4); grid-template-columns: minmax(0, 1fr); }
+.grid > *, .achado > * { min-width: 0; }
+.stack > * + * { margin-top: var(--space-4); }
+
+/* Topo */
+.topo { padding: var(--space-12) 0 var(--space-6); border-bottom: 1px solid var(--border); }
+.marca { font-family: var(--font-display); font-weight: 700; color: var(--primary); margin-bottom: var(--space-6); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; padding: 0; list-style: none; }
+.chip {
+  display: inline-block; padding: 6px 14px; border-radius: var(--radius-pill);
+  border: 1px solid var(--border); background: var(--card);
+  font-size: 13px; line-height: 18px; font-weight: 500; color: var(--foreground); text-decoration: none;
+  transition: border-color 200ms, color 200ms;
+}
+a.chip:hover { border-color: var(--primary); color: var(--primary); }
+
+/* Cards e KPIs */
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius-md); padding: var(--space-6); min-width: 0;
+}
+.kpi-valor {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: 32px; line-height: 38px; letter-spacing: -0.01em; margin: var(--space-2) 0;
+}
+.kpi-rotulo { font-size: 13px; line-height: 18px; font-weight: 600; color: var(--muted-foreground); }
+
+/* Achado principal */
+.achado { display: grid; gap: var(--space-6); grid-template-columns: minmax(0, 1fr); align-items: start; }
+.selo {
+  display: inline-block; background: var(--accent); color: var(--on-accent);
+  border-radius: var(--radius-pill); padding: 4px 12px;
+  font-size: 12px; line-height: 16px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+.numero-grande {
+  font-family: var(--font-display); font-weight: 700; font-size: 56px; line-height: 1; letter-spacing: -0.02em;
+}
+
+/* Gráficos */
+.grafico { position: relative; height: 300px; }
+.grafico--alto { height: 460px; }
+.grafico canvas { max-width: 100%; }
+.legenda { display: flex; flex-wrap: wrap; gap: var(--space-4); margin: 0 0 var(--space-4); padding: 0; list-style: none; font-size: 13px; }
+.legenda li { display: flex; align-items: center; gap: var(--space-2); }
+.legenda i { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.legenda i.linha { height: 2px; border-radius: 0; }
+.insight { border-top: 1px solid var(--border); padding-top: var(--space-4); margin-top: var(--space-4); margin-bottom: 0; }
+
+/* Tabelas */
+details { margin-top: var(--space-4); }
+summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--primary); }
+.tabela-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 20px; }
+th, td { text-align: left; padding: var(--space-2); border-bottom: 1px solid var(--border); white-space: nowrap; }
+th { font-size: 12px; font-weight: 600; color: var(--muted-foreground); text-transform: uppercase; letter-spacing: 0.04em; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.lista { margin: 0; padding-left: 20px; }
+.lista li + li { margin-top: var(--space-2); }
+footer { padding: var(--space-6) 0 var(--space-12); }
+
+@media (min-width: 900px) {
+  .grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .grid--2-1 { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+  .achado { grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); }
+  .grafico--alto { height: 420px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <div class="marca">Retiro Tech</div>
+    <span class="eyebrow">Análise de e-commerce</span>
+    <h1 class="display">R$ 972 mil em 30 dias</h1>
+    <p class="lead">3.020 pedidos de 50 clientes entre 13 dez 2025 a 11 jan 2026, somando o e-commerce e a loja física. Este painel mostra de onde vem a receita e como nossos preços se comparam aos de 4 concorrentes.</p>
+    <nav aria-label="Seções">
+      <ul class="chips">
+        <li><a class="chip" href="#resumo">Resumo</a></li>
+        <li><a class="chip" href="#achado">Achado principal</a></li>
+        <li><a class="chip" href="#tempo">Vendas no tempo</a></li>
+        <li><a class="chip" href="#canais">Canais</a></li>
+        <li><a class="chip" href="#produtos">Produtos</a></li>
+        <li><a class="chip" href="#clientes">Clientes</a></li>
+        <li><a class="chip" href="#concorrencia">Concorrência</a></li>
+        <li><a class="chip" href="#qualidade">Dados</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="section" id="resumo" aria-labelledby="t-resumo">
+  <div class="container">
+    <span class="eyebrow">Resumo do período</span>
+    <h2 class="heading" id="t-resumo">Os números do mês</h2>
+    <div class="grid grid--3">
+      <div class="card"><div class="kpi-rotulo">Receita total</div><div class="kpi-valor">R$ 971.883</div><div class="caption">R$ 32.396 por dia</div></div>
+      <div class="card"><div class="kpi-rotulo">Pedidos</div><div class="kpi-valor">3.020</div><div class="caption">4.322 itens · 1,43 por pedido</div></div>
+      <div class="card"><div class="kpi-rotulo">Ticket médio</div><div class="kpi-valor">R$ 321,82</div><div class="caption">Desconto médio de 3,1% sobre o preço de tabela</div></div>
+      <div class="card"><div class="kpi-rotulo">Clientes ativos</div><div class="kpi-valor">50</div><div class="caption">de 50 cadastrados · 5 maiores = 14,5%</div></div>
+      <div class="card"><div class="kpi-rotulo">Produtos vendidos</div><div class="kpi-valor">185</div><div class="caption">de 215 no catálogo · 30 sem venda</div></div>
+      <div class="card"><div class="kpi-rotulo">Canal líder</div><div class="kpi-valor">E-commerce</div><div class="caption">72,6% da receita</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--muted" id="achado" aria-labelledby="t-achado">
+  <div class="container">
+    <span class="eyebrow">Achado principal</span>
+    <h2 class="heading" id="t-achado">Tênis: o dobro do preço e nenhuma venda</h2>
+    <div class="achado">
+      <div class="card">
+        <span class="selo">Ação recomendada</span>
+        <div class="numero-grande">2,0×</div>
+        <p class="caption" style="margin-top: var(--space-2)">nosso preço ÷ preço dos concorrentes, em todos os 15 produtos</p>
+        <p>Todos os produtos da categoria custam exatamente o dobro do que Amazon, Magalu, Mercado Livre e Shopee cobram, e nenhum deles vendeu no período (receita de R$ 0).</p>
+        <p style="margin-bottom:0">O mesmo fator em todos os itens indica erro de cadastro de preço, não uma escolha comercial. Vale revisar o <code>preco_atual</code> da categoria antes de qualquer outra ação.</p>
+      </div>
+      <div class="card">
+        <h3 class="subheading">Exemplos da categoria</h3>
+        <div class="tabela-wrap">
+          <table>
+            <thead><tr><th>Produto</th><th class="num">Nosso preço</th><th class="num">Concorrência</th><th class="num">Receita</th></tr></thead>
+            <tbody>
+            <tr><td>Tênis Puma Speedcat</td><td class="num">R$ 451,90</td><td class="num">R$ 225,95</td><td class="num">R$ 0</td></tr>
+            <tr><td>Tênis Puma Suede</td><td class="num">R$ 404,50</td><td class="num">R$ 202,25</td><td class="num">R$ 0</td></tr>
+            <tr><td>Tênis Adidas Stan Smith</td><td class="num">R$ 197,90</td><td class="num">R$ 98,95</td><td class="num">R$ 0</td></tr>
+            <tr><td>Tênis Nike Revolution</td><td class="num">R$ 174,90</td><td class="num">R$ 87,45</td><td class="num">R$ 0</td></tr>
+            <tr><td>Tênis Puma Future</td><td class="num">R$ 123,99</td><td class="num">R$ 61,99</td><td class="num">R$ 0</td></tr>
+            <tr><td>Tênis Nike Revolution</td><td class="num">R$ 105,90</td><td class="num">R$ 52,95</td><td class="num">R$ 0</td></tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tempo" aria-labelledby="t-tempo">
+  <div class="container">
+    <span class="eyebrow">Vendas no tempo</span>
+    <h2 class="heading" id="t-tempo">Receita diária estável, com pico nos fins de semana</h2>
+    <div class="grid grid--2-1">
+      <div class="card">
+        <h3 class="subheading">Receita por dia</h3>
+        <ul class="legenda" aria-hidden="true">
+          <li><i style="background:var(--primary)"></i>Receita do dia</li>
+          <li><i style="background:var(--accent)"></i>Melhor dia (14/12)</li>
+          <li><i class="linha" style="background:var(--foreground)"></i>Média móvel de 7 dias</li>
+        </ul>
+        <div class="grafico"><canvas id="g-diaria" role="img" aria-label="Receita por dia, com média móvel de 7 dias"></canvas></div>
+        <details data-tabela="diaria"><summary>Ver dados</summary></details>
+      </div>
+      <div class="card">
+        <h3 class="subheading">Receita por dia da semana</h3>
+        <p class="caption">Soma do período</p>
+        <div class="grafico"><canvas id="g-semana" role="img" aria-label="Receita por dia da semana"></canvas></div>
+        <details data-tabela="dia_semana"><summary>Ver dados</summary></details>
+      </div>
+    </div>
+    <p class="insight">A receita média é de R$ 32.396 por dia e fica estável nas semanas completas (entre R$ 213.605 e R$ 237.588). Sábado e domingo faturam 24% a mais que a média dos dias úteis.</p>
+  </div>
+</section>
+
+<section class="section section--muted" id="canais" aria-labelledby="t-canais">
+  <div class="container">
+    <span class="eyebrow">Canais de venda</span>
+    <h2 class="heading" id="t-canais">E-commerce traz 73% da receita</h2>
+    <div class="grid grid--2">
+      
+      <div class="card">
+        <div class="kpi-rotulo">E-commerce</div>
+        <div class="kpi-valor">R$ 705.486</div>
+        <div class="caption">72,6% da receita · 2.155 pedidos · ticket de R$ 327,37</div>
+      </div>
+      
+      <div class="card">
+        <div class="kpi-rotulo">Loja física</div>
+        <div class="kpi-valor">R$ 266.397</div>
+        <div class="caption">27,4% da receita · 865 pedidos · ticket de R$ 307,97</div>
+      </div>
+      
+    </div>
+    <div class="card" style="margin-top: var(--space-4)">
+      <h3 class="subheading">Receita por categoria e canal</h3>
+      <ul class="legenda" aria-hidden="true">
+        <li><i style="background:var(--primary)"></i>E-commerce</li>
+        <li><i style="background:var(--chart-secondary)"></i>Loja física</li>
+      </ul>
+      <div class="grafico grafico--alto"><canvas id="g-cat-canal" role="img" aria-label="Receita por categoria, empilhada por canal"></canvas></div>
+      <details data-tabela="categoria_canal"><summary>Ver dados</summary></details>
+    </div>
+    <p class="insight">O e-commerce responde por 72,6% da receita, com ticket de R$ 327,37 contra R$ 307,97 na loja física. Todos os 50 clientes compraram nos dois canais.</p>
+  </div>
+</section>
+
+<section class="section" id="produtos" aria-labelledby="t-produtos">
+  <div class="container">
+    <span class="eyebrow">Produtos</span>
+    <h2 class="heading" id="t-produtos">Poucos produtos concentram a receita</h2>
+    <div class="card">
+      <h3 class="subheading">10 produtos com maior receita</h3>
+      <div class="grafico grafico--alto"><canvas id="g-top" role="img" aria-label="Os 10 produtos com maior receita"></canvas></div>
+      <details data-tabela="top_produtos"><summary>Ver dados</summary></details>
+    </div>
+    <p class="insight">Moda lidera com 25,5% da receita. Só o produto Camisa Social gerou R$ 115.795 (11,9% do total), e os 10 maiores somam 51%. 30 dos 215 produtos não venderam nada no período.</p>
+  </div>
+</section>
+
+<section class="section section--muted" id="clientes" aria-labelledby="t-clientes">
+  <div class="container">
+    <span class="eyebrow">Clientes e regiões</span>
+    <h2 class="heading" id="t-clientes">Receita espalhada pelo país, sem dependência de poucos clientes</h2>
+    <div class="grid grid--2">
+      <div class="card">
+        <h3 class="subheading">Receita por estado</h3>
+        <div class="grafico grafico--alto"><canvas id="g-uf" role="img" aria-label="Receita por estado"></canvas></div>
+        <details data-tabela="estados"><summary>Ver dados</summary></details>
+      </div>
+      <div class="card">
+        <h3 class="subheading">10 maiores clientes</h3>
+        <div class="tabela-wrap">
+          <table>
+            <thead><tr><th>Cliente</th><th>UF</th><th class="num">Pedidos</th><th class="num">Receita</th><th class="num">Ticket médio</th><th class="num">Dias desde a última compra</th></tr></thead>
+            <tbody>
+            <tr><td>Ana Sophia Pereira</td><td>MG</td><td class="num">53</td><td class="num">R$ 30.717</td><td class="num">R$ 579,56</td><td class="num">0</td></tr>
+            <tr><td>Melissa Pastor</td><td>AC</td><td class="num">68</td><td class="num">R$ 30.212</td><td class="num">R$ 444,29</td><td class="num">0</td></tr>
+            <tr><td>Dr. Benício Gomes</td><td>AL</td><td class="num">72</td><td class="num">R$ 27.424</td><td class="num">R$ 380,89</td><td class="num">0</td></tr>
+            <tr><td>Henrique da Conceição</td><td>DF</td><td class="num">77</td><td class="num">R$ 26.688</td><td class="num">R$ 346,60</td><td class="num">0</td></tr>
+            <tr><td>Murilo da Mata</td><td>RR</td><td class="num">81</td><td class="num">R$ 26.092</td><td class="num">R$ 322,12</td><td class="num">0</td></tr>
+            <tr><td>Dra. Mariane Pacheco</td><td>MT</td><td class="num">73</td><td class="num">R$ 25.455</td><td class="num">R$ 348,70</td><td class="num">1</td></tr>
+            <tr><td>Josué Souza</td><td>RJ</td><td class="num">50</td><td class="num">R$ 24.750</td><td class="num">R$ 495,00</td><td class="num">1</td></tr>
+            <tr><td>Srta. Yasmin Siqueira</td><td>PA</td><td class="num">53</td><td class="num">R$ 23.674</td><td class="num">R$ 446,68</td><td class="num">0</td></tr>
+            <tr><td>Bella Borges</td><td>AM</td><td class="num">57</td><td class="num">R$ 22.866</td><td class="num">R$ 401,16</td><td class="num">0</td></tr>
+            <tr><td>Vitor Gabriel da Luz</td><td>RS</td><td class="num">65</td><td class="num">R$ 22.735</td><td class="num">R$ 349,76</td><td class="num">0</td></tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <p class="insight">A base é pequena (50 clientes) e bem distribuída: os 5 maiores somam 14,5% da receita, e AM é o estado que mais compra (8,2%). Cada cliente fez, em média, 60 pedidos em 30 dias.</p>
+  </div>
+</section>
+
+<section class="section" id="concorrencia" aria-labelledby="t-conc">
+  <div class="container">
+    <span class="eyebrow">Concorrência · coleta de 11/01/2026</span>
+    <h2 class="heading" id="t-conc">Preço alinhado ao mercado, raramente o mais barato</h2>
+    <div class="grid grid--3">
+      <div class="card"><div class="kpi-rotulo">Mais caros que todos os concorrentes</div><div class="kpi-valor">35</div><div class="caption">15 deles são da categoria Tênis</div></div>
+      <div class="card"><div class="kpi-rotulo">Entre o menor e o maior preço</div><div class="kpi-valor">174</div><div class="caption">de 215 produtos comparados</div></div>
+      <div class="card"><div class="kpi-rotulo">Mais baratos que todos</div><div class="kpi-valor">6</div><div class="caption">Índice mediano: 1,007</div></div>
+    </div>
+    <div class="grid grid--2" style="margin-top: var(--space-4)">
+      <div class="card">
+        <h3 class="subheading">Diferença de preço por categoria</h3>
+        <p class="caption">Nosso preço contra a média dos concorrentes. Acima de zero, somos mais caros. Sem Tênis (+100%).</p>
+        <div class="grafico"><canvas id="g-indice" role="img" aria-label="Diferença de preço por categoria contra a média da concorrência"></canvas></div>
+        <details data-tabela="indice_categoria"><summary>Ver dados</summary></details>
+      </div>
+      <div class="card">
+        <h3 class="subheading">Quanto somos mais caros, por concorrente</h3>
+        <p class="caption">Diferença média nos produtos que cada um vende. Inclui Tênis.</p>
+        <div class="grafico"><canvas id="g-conc" role="img" aria-label="Diferença média de preço por concorrente"></canvas></div>
+        <details data-tabela="concorrentes"><summary>Ver dados</summary></details>
+      </div>
+    </div>
+    <p class="insight">Fora a anomalia de Tênis, o preço está alinhado ao mercado: o índice médio é 1,004 (1,000 = média dos concorrentes). Somos o preço mais baixo em apenas 6 produtos.</p>
+  </div>
+</section>
+
+<section class="section section--muted" id="qualidade" aria-labelledby="t-qual">
+  <div class="container">
+    <span class="eyebrow">Sobre os dados</span>
+    <h2 class="heading" id="t-qual">Como os números foram calculados</h2>
+    <div class="card">
+      <ul class="lista">
+        <li>Receita = quantidade × preço unitário de cada venda. Ticket médio = receita ÷ pedidos (cada linha de venda é um pedido).</li>
+        <li>20 vendas (R$ 4.240,01) citam produtos que não estão no cadastro. Elas entram nos totais como "Sem cadastro".</li>
+        <li>Nenhuma venda sem cliente cadastrado, nenhuma chave duplicada e nenhum valor nulo.</li>
+        <li>A comparação com a concorrência usa o preço de tabela atual e uma coleta de um único dia. Cada produto tem de 1 a 4 concorrentes.</li>
+        <li>1 linha do arquivo de concorrentes estava malformada e foi corrigida. O detalhe está em <code>output/qualidade_dados.md</code>.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container caption">Gerado por <code>gerar_dashboard.py</code> em 24/09/2026 21:59. KPIs completos em <code>output/kpis/</code>.</div>
+</footer>
+
+<script type="application/json" id="dados">{"diaria": {"labels": ["13/12", "14/12", "15/12", "16/12", "17/12", "18/12", "19/12", "20/12", "21/12", "22/12", "23/12", "24/12", "25/12", "26/12", "27/12", "28/12", "29/12", "30/12", "31/12", "01/01", "02/01", "03/01", "04/01", "05/01", "06/01", "07/01", "08/01", "09/01", "10/01", "11/01"], "receita": [25786.56, 40740.48, 36409.09, 30794.21, 38109.98, 28835.98, 35881.13, 38003.2, 29553.94, 39473.09, 30490.2, 32232.08, 35367.74, 25753.04, 29902.4, 34406.06, 28902.55, 28003.56, 31969.91, 40317.31, 20639.06, 36459.62, 27312.53, 30996.47, 38841.22, 36702.45, 32326.13, 28426.54, 31033.6, 28212.97], "media": [25786.56, 33263.52, 34312.04, 33432.58, 34368.06, 33446.05, 33793.92, 35539.15, 33941.08, 34378.79, 34335.36, 33495.66, 34428.77, 32981.9, 31824.64, 32517.8, 31007.72, 30652.49, 30615.04, 31322.12, 30591.55, 31528.3, 30514.93, 30814.07, 32362.3, 33038.38, 31896.78, 33009.28, 32234.13, 32362.77], "destaque": 1}, "dia_semana": {"labels": ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"], "receita": [135781.2, 128129.19, 139014.42, 136847.16, 110699.77, 161185.38, 160225.98]}, "categoria_canal": {"labels": ["Moda", "Áudio", "Acessórios", "Casa", "Cozinha", "Beleza", "Eletrônicos", "Informática", "Games", "Esporte", "Sem cadastro"], "series": [{"nome": "E-commerce", "valores": [173552.49, 99451.99, 97712.65, 81924.38, 53512.83, 52364.13, 43184.87, 43676.11, 36353.87, 21712.47, 2040.42]}, {"nome": "Loja física", "valores": [74571.66, 35415.3, 23197.29, 30780.14, 31547.06, 14488.39, 19641.41, 17734.76, 13822.17, 2999.12, 2199.59]}]}, "top_produtos": {"labels": ["Camisa Social", "Fone de Ouvido Esportivo", "Necessaire", "Persiana Vertical", "Calça Jeans Skinny", "Condicionador Hidratante", "Shorts Jeans", "Garrafa Térmica 1L", "Notebook Inspiron 15", "Vestido Floral"], "receita": [115794.92, 114268.47, 63668.43, 42310.56, 41313.34, 31587.75, 28431.49, 21498.06, 20813.53, 17842.0]}, "estados": {"labels": ["AM", "TO", "PA", "AC", "SP", "RS", "GO", "MT", "MG", "CE", "SE", "AL", "MA", "MS", "ES", "DF", "RR", "RJ", "PB", "PE", "AP", "PR"], "receita": [79474.67, 71055.63, 70003.51, 69833.78, 60898.63, 60727.1, 57898.59, 57431.13, 51955.58, 49133.23, 44631.43, 44340.2, 38173.2, 37081.14, 34087.97, 26687.99, 26091.64, 24750.17, 20861.16, 19024.24, 14425.28, 13316.83]}, "indice_categoria": {"labels": ["Beleza", "Informática", "Moda", "Cozinha", "Acessórios", "Eletrônicos", "Games", "Casa", "Áudio", "Esporte"], "diferenca": [1.2, 0.9, 0.7, 0.6, 0.4, 0.4, 0.4, 0.1, -0.2, -0.3]}, "concorrentes": {"labels": ["Magalu", "Shopee", "Amazon", "Mercado Livre"], "diferenca": [8.71, 8.5, 8.31, 6.68]}}</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("dados").textContent);
+  const css = getComputedStyle(document.documentElement);
+  const cor = (n) => css.getPropertyValue(n).trim();
+  const C = {
+    primary: cor("--primary"), accent: cor("--accent"), secundaria: cor("--chart-secondary"),
+    texto: cor("--foreground"), textoSec: cor("--muted-foreground"), borda: cor("--border"), card: cor("--card"),
+  };
+
+  const brl = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+  const brlCompacto = (v) => {
+    const a = Math.abs(v);
+    if (a >= 1000) return "R$ " + (v / 1000).toLocaleString("pt-BR", { maximumFractionDigits: 0 }) + " mil";
+    return brl.format(v);
+  };
+  const pct = (v) => (v > 0 ? "+" : "") + v.toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + "%";
+
+  if (window.Chart) {
+    Chart.defaults.font.family = cor("--font-sans");
+    Chart.defaults.font.size = 12;
+    Chart.defaults.color = C.textoSec;
+    Chart.defaults.borderColor = C.borda;
+    Chart.defaults.maintainAspectRatio = false;
+    Chart.defaults.plugins.legend.display = false; // legendas em HTML
+    Object.assign(Chart.defaults.plugins.tooltip, {
+      backgroundColor: C.texto, titleColor: "#fff", bodyColor: "#fff",
+      padding: 10, cornerRadius: 8, displayColors: true, boxPadding: 4,
+    });
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) Chart.defaults.animation = false;
+  }
+
+  const barra = { borderRadius: 4, borderSkipped: "start", maxBarThickness: 28 };
+  const eixoValor = (fmt) => ({ grid: { color: C.borda }, border: { display: false }, ticks: { callback: fmt } });
+  const eixoCategoria = { grid: { display: false }, border: { color: C.borda } };
+  const tooltip = (fmt) => ({ callbacks: { label: (c) => ` ${c.dataset.label ? c.dataset.label + ": " : ""}${fmt(c.parsed[c.chart.options.indexAxis === "y" ? "x" : "y"])}` } });
+
+  function horizontal(id, labels, datasets, fmt, extra = {}) {
+    return new Chart(document.getElementById(id), {
+      type: "bar",
+      data: { labels, datasets },
+      options: Object.assign({
+        indexAxis: "y",
+        scales: { x: eixoValor(fmt), y: Object.assign({}, eixoCategoria, { ticks: { color: C.texto, autoSkip: false } }) },
+        plugins: { tooltip: tooltip(fmt) },
+      }, extra),
+    });
+  }
+
+  if (window.Chart) {
+    // Receita diária: barras + média móvel (mesma escala, um eixo)
+    const d = D.diaria;
+    new Chart(document.getElementById("g-diaria"), {
+      data: {
+        labels: d.labels,
+        datasets: [
+          { type: "line", label: "Média 7 dias", data: d.media, borderColor: C.texto, borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0.3 },
+          Object.assign({ type: "bar", label: "Receita", data: d.receita,
+            backgroundColor: d.receita.map((_, i) => (i === d.destaque ? C.accent : C.primary)) }, barra),
+        ],
+      },
+      options: {
+        interaction: { mode: "index", intersect: false },
+        scales: { y: eixoValor(brlCompacto), x: Object.assign({}, eixoCategoria, { ticks: { maxRotation: 0, autoSkipPadding: 12 } }) },
+        plugins: { tooltip: tooltip((v) => brl.format(v)) },
+      },
+    });
+
+    new Chart(document.getElementById("g-semana"), {
+      type: "bar",
+      data: { labels: D.dia_semana.labels, datasets: [Object.assign({ label: "Receita", data: D.dia_semana.receita, backgroundColor: C.primary }, barra)] },
+      options: { scales: { y: eixoValor(brlCompacto), x: eixoCategoria }, plugins: { tooltip: tooltip((v) => brl.format(v)) } },
+    });
+
+    const cc = D.categoria_canal;
+    horizontal("g-cat-canal", cc.labels, cc.series.map((s, i) => Object.assign({
+      label: s.nome, data: s.valores, backgroundColor: i === 0 ? C.primary : C.secundaria,
+      borderColor: C.card, borderWidth: { right: 2 }, borderRadius: 0,
+    })), brlCompacto, {
+      interaction: { mode: "index", axis: "y", intersect: false },
+      scales: {
+        x: Object.assign(eixoValor(brlCompacto), { stacked: true }),
+        y: Object.assign({}, eixoCategoria, { stacked: true, ticks: { color: C.texto, autoSkip: false } }),
+      },
+      plugins: { tooltip: tooltip((v) => brl.format(v)) },
+    });
+
+    horizontal("g-top", D.top_produtos.labels,
+      [Object.assign({ label: "Receita", data: D.top_produtos.receita, backgroundColor: C.primary }, barra)],
+      brlCompacto, { plugins: { tooltip: tooltip((v) => brl.format(v)) } });
+
+    horizontal("g-uf", D.estados.labels,
+      [Object.assign({ label: "Receita", data: D.estados.receita, backgroundColor: C.primary, maxBarThickness: 14 }, { borderRadius: 4, borderSkipped: "start" })],
+      brlCompacto, { plugins: { tooltip: tooltip((v) => brl.format(v)) } });
+
+    horizontal("g-indice", D.indice_categoria.labels,
+      [Object.assign({ label: "Diferença", data: D.indice_categoria.diferenca, backgroundColor: C.primary }, barra)],
+      pct, { plugins: { tooltip: tooltip(pct) } });
+
+    new Chart(document.getElementById("g-conc"), {
+      type: "bar",
+      data: { labels: D.concorrentes.labels, datasets: [Object.assign({ label: "Diferença média", data: D.concorrentes.diferenca, backgroundColor: C.primary }, barra)] },
+      options: { scales: { y: Object.assign(eixoValor(pct), { beginAtZero: true }), x: eixoCategoria }, plugins: { tooltip: tooltip(pct) } },
+    });
+  }
+
+  // "Ver dados": tabela gerada a partir dos mesmos dados de cada gráfico
+  const tabelas = {
+    diaria: () => [["Dia", "Receita", "Média 7 dias"], D.diaria.labels.map((l, i) => [l, brl.format(D.diaria.receita[i]), brl.format(D.diaria.media[i])])],
+    dia_semana: () => [["Dia", "Receita"], D.dia_semana.labels.map((l, i) => [l, brl.format(D.dia_semana.receita[i])])],
+    categoria_canal: () => [["Categoria", ...D.categoria_canal.series.map((s) => s.nome)],
+      D.categoria_canal.labels.map((l, i) => [l, ...D.categoria_canal.series.map((s) => brl.format(s.valores[i]))])],
+    top_produtos: () => [["Produto", "Receita"], D.top_produtos.labels.map((l, i) => [l, brl.format(D.top_produtos.receita[i])])],
+    estados: () => [["UF", "Receita"], D.estados.labels.map((l, i) => [l, brl.format(D.estados.receita[i])])],
+    indice_categoria: () => [["Categoria", "Diferença"], D.indice_categoria.labels.map((l, i) => [l, pct(D.indice_categoria.diferenca[i])])],
+    concorrentes: () => [["Concorrente", "Diferença média"], D.concorrentes.labels.map((l, i) => [l, pct(D.concorrentes.diferenca[i])])],
+  };
+  document.querySelectorAll("details[data-tabela]").forEach((el) => {
+    const [cab, linhas] = tabelas[el.dataset.tabela]();
+    const th = cab.map((h, i) => `<th${i ? ' class="num"' : ""}>${h}</th>`).join("");
+    const tr = linhas.map((l) => "<tr>" + l.map((c, i) => `<td${i ? ' class="num"' : ""}>${c}</td>`).join("") + "</tr>").join("");
+    el.insertAdjacentHTML("beforeend", `<div class="tabela-wrap"><table><thead><tr>${th}</tr></thead><tbody>${tr}</tbody></table></div>`);
+  });
+})();
+</script>
+</body>
+</html>

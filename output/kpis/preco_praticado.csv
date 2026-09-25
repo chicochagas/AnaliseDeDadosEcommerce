@@ -1,0 +1,186 @@
+id_produto,nome_produto,categoria,preco_atual,preco_medio_vendido,desconto_pct
+prd_0b790b565ff2,Mixer de Áudio,Áudio,107.99,91.79,15.0
+prd_295160cbf171,Controle Xbox,Games,310.9,283.26,8.89
+prd_3dd1d39581ca,Halteres Ajustáveis,Esporte,52.99,48.57,8.33
+prd_92c4758afec3,Vestido Floral,Moda,325.9,301.46,7.5
+prd_b2fdb7f36a3f,Blusa de Algodão,Moda,52.99,49.2,7.14
+prd_7af81d9a08ba,Controle PlayStation,Games,49.99,46.42,7.14
+prd_e3934c71bd0c,Meia Esportiva,Esporte,391.9,364.47,7.0
+prd_11a9489c4c86,Porta-retrato,Casa,74.99,69.74,7.0
+prd_7a89c1a36f9e,Mesa para Notebook,Informática,519.5,484.86,6.67
+prd_2befc441dd56,Bicicleta Ergométrica,Esporte,228.99,214.27,6.43
+prd_e772a9cda46d,Blusa de Algodão,Moda,36.9,34.59,6.25
+prd_89d76b194110,Travesseiro Ortopédico,Casa,179.99,168.74,6.25
+prd_622325b011e6,Iluminador para Stream,Games,323.9,304.47,6.0
+prd_5437b387f602,Webcam 1080p,Informática,227.9,214.61,5.83
+prd_223c9b6a0a76,Luminária de Mesa,Casa,81.99,77.26,5.77
+prd_305f920b8836,Brincos de Prata,Acessórios,935.5,882.04,5.71
+prd_206eacaa3048,Joystick Arcade,Games,116.99,110.3,5.71
+prd_dd8079e89b90,Porta-retrato,Casa,84.9,80.13,5.62
+prd_3bee9877eb80,Rádio AM/FM,Áudio,45.5,43.0,5.5
+prd_5744e3f88341,Jarra de Vidro,Cozinha,192.9,182.29,5.5
+prd_c9b4024b7b9e,Toca-discos USB,Áudio,95.5,90.32,5.42
+prd_9d1aea4d28ae,Pesos de Pulso,Esporte,1324.9,1258.66,5.0
+prd_b76e68fde5cb,Perfume 100ml,Beleza,457.9,435.0,5.0
+prd_ef0b5e05efef,Creme Hidratante,Beleza,247.9,235.5,5.0
+prd_31b74a170d35,Saia Midi,Moda,72.9,69.26,5.0
+prd_d8ec0b81e223,Toca-discos USB,Áudio,371.9,353.3,5.0
+prd_f7ed5522d23e,Macacão Feminino,Moda,242.9,230.75,5.0
+prd_6742b65088d8,Porta-temperos,Cozinha,41.99,39.89,5.0
+prd_f8e027f417be,Placa Mãe B450,Informática,180.9,171.85,5.0
+prd_1649b8a625e4,Fone de Ouvido Bluetooth,Áudio,99.0,94.05,5.0
+prd_032c166122f7,Controle Xbox,Games,219.9,208.91,5.0
+prd_7dd7624b4d5f,Fone de Ouvido com Fio,Áudio,297.9,283.0,5.0
+prd_c708b046fef8,Halteres Ajustáveis,Esporte,46.0,43.7,5.0
+prd_6212ac3178f2,Óculos de Natação,Esporte,144.9,137.66,5.0
+prd_db8fc9e6fa53,Paleta de Sombras,Beleza,1420.99,1349.94,5.0
+prd_f063f46a7ef8,Fone de Ouvido Esportivo,Áudio,1428.99,1358.26,4.95
+prd_38c1b898aecc,Microfone para Stream,Games,140.9,134.32,4.67
+prd_5a6fd66e1c00,Vestido Casual,Moda,112.9,107.73,4.58
+prd_3053916502fb,Cabo USB-C,Eletrônicos,448.5,428.32,4.5
+prd_2bf8388221ea,Mouse Gamer RGB,Games,49.99,47.77,4.45
+prd_6ae727ee4463,Placa Mãe B450,Informática,74.0,70.71,4.44
+prd_ebb0865fc95d,Fone Gamer RGB,Áudio,175.99,168.29,4.38
+prd_82cd17cb589d,Persiana Vertical,Casa,44.9,42.97,4.29
+prd_6eca734f2e84,Edredom Casal,Casa,227.99,218.22,4.29
+prd_76ede0cece8f,Óculos de Natação,Esporte,58.0,55.51,4.29
+prd_2cbafff50c72,Sabonete Facial,Beleza,100.9,96.62,4.24
+prd_9a3dfc23b7a3,Relógio Analógico,Acessórios,105.5,101.03,4.23
+prd_045813f96891,Cardigan de Lã,Moda,142.99,136.99,4.19
+prd_9b4e39e312d9,Carteira de Couro,Acessórios,1287.99,1234.32,4.17
+prd_b17460641fb4,Garrafa Térmica 1L,Cozinha,239.99,229.99,4.17
+prd_815b38747487,Conjunto de Malha,Moda,86.5,82.9,4.17
+prd_a17c779dd289,Gravador de Voz,Áudio,64.9,62.25,4.09
+prd_bf94f6ee7033,Mochila Esportiva,Esporte,78.9,75.67,4.09
+prd_06c19781c3db,Assadeira de Vidro,Cozinha,100.9,96.86,4.0
+prd_90725b7ac0e8,Espelho de Parede,Casa,78.99,75.83,4.0
+prd_f79cf82f8ee0,Caixa de Som JBL,Eletrônicos,219.9,211.11,4.0
+prd_08611917c0ae,Relógio de Parede,Casa,105.99,101.75,4.0
+prd_1974423eecee,Suporte para Monitor,Informática,164.5,157.92,4.0
+prd_9f5272275347,Marcador de Texto,Acessórios,59.5,57.12,4.0
+prd_11bf1703f8e9,Caixa de Som Portátil,Áudio,48.0,46.08,4.0
+prd_2255432fabe7,Marcador de Texto,Acessórios,119.99,115.32,3.89
+prd_7798c88cc490,Kit Utensílios de Cozinha,Cozinha,465.5,447.4,3.89
+prd_d92ad43fa137,Smart TV 43 Polegadas,Eletrônicos,66.9,64.31,3.87
+prd_8b22fd85d500,Garrafa Térmica 1L,Cozinha,324.99,312.42,3.87
+prd_c29b93111bd9,Colar de Ouro,Acessórios,206.9,198.94,3.85
+prd_23664e42a71c,Jogo de Toalhas,Casa,109.9,105.74,3.78
+prd_07ff67746d02,Faqueiro Inox 12 Peças,Cozinha,316.99,305.1,3.75
+prd_56e08463d21c,Tapete Persa,Casa,223.9,215.5,3.75
+prd_142839b15f63,Vestido Casual,Moda,99.5,95.77,3.75
+prd_a7c360e156c0,Gabinete ATX,Informática,171.99,165.54,3.75
+prd_92c0ecf60a58,Jogo de Toalhas,Casa,180.9,174.16,3.72
+prd_c1f6dcbed826,Descascador de Legumes,Cozinha,192.9,185.89,3.64
+prd_e55f1f3ae9ad,SSD 500GB,Eletrônicos,71.9,69.33,3.57
+prd_08fc82e8b75d,Persiana Vertical,Casa,137.9,132.97,3.57
+prd_0c5fb549e1c2,Edredom Casal,Casa,295.9,285.54,3.5
+prd_e561d57f2a21,Caixa de Som 2.1,Áudio,116.99,112.9,3.5
+prd_9239eec8982d,HD Externo 2TB,Informática,51.99,50.19,3.46
+prd_651e8d1acbf8,Processador de Alimentos,Cozinha,464.9,448.81,3.46
+prd_9259039bf9b2,Tábua de Corte,Cozinha,240.99,232.65,3.46
+prd_b7490508211e,Vestido Floral,Moda,220.0,212.44,3.44
+prd_205f309c1a21,Tapete Persa,Casa,34.99,33.79,3.43
+prd_c9ce9d378723,Processador Intel i5,Informática,41.9,40.5,3.34
+prd_fb32df842fbd,Vestido Floral,Moda,92.9,89.8,3.33
+prd_40902505f7f1,Fonte PC 500W,Informática,495.9,479.37,3.33
+prd_0c113961481f,Vestido Floral,Moda,243.9,235.77,3.33
+prd_6343e70ed4b9,Sérum Vitamina C,Beleza,152.0,146.93,3.33
+prd_385035a5bc20,Notebook Inspiron 15,Eletrônicos,219.9,212.57,3.33
+prd_645f7859f379,Calça Jeans Skinny,Moda,486.9,470.8,3.31
+prd_6d4e3b1efd0c,Necessaire,Acessórios,1139.99,1102.45,3.29
+prd_a4025bac91a7,Óculos de Sol,Acessórios,52.9,51.17,3.26
+prd_c62100cc281c,Webcam para Stream,Games,48.9,47.34,3.2
+prd_0347eab01a6c,Memória RAM 8GB,Informática,626.0,606.08,3.18
+prd_334f4a32f979,Persiana Vertical,Casa,404.5,391.74,3.15
+prd_1091c2cfe1e9,Edredom Casal,Casa,425.9,412.59,3.13
+prd_47a25ae10c23,Soundbar TV,Áudio,88.99,86.21,3.13
+prd_faf3fd1a4155,Cinto de Couro,Acessórios,102.9,99.68,3.13
+prd_ae7b2acb6812,Cinto de Couro,Acessórios,1108.9,1074.25,3.12
+prd_e66747c9b59e,Cesto de Vime,Casa,194.0,188.03,3.08
+prd_bf5d8671f7a9,Placa Mãe B450,Informática,119.9,116.22,3.07
+prd_a4ee2d52d1c5,Suporte para Controle,Games,213.9,207.48,3.0
+prd_9aa451566556,Jarra de Vidro,Cozinha,395.9,384.02,3.0
+prd_728d12065bf5,Suporte para Monitor,Informática,430.0,417.1,3.0
+prd_6442b103f637,Adaptador HDMI-VGA,Informática,299.9,290.9,3.0
+prd_c50822dc2e7c,Teclado Mecânico RGB,Eletrônicos,223.99,217.27,3.0
+prd_5112469132ff,Placa Mãe B450,Informática,413.5,401.09,3.0
+prd_22f73233f9a5,Notebook Inspiron 15,Eletrônicos,103.9,100.78,3.0
+prd_686e2aab873d,Blusa de Frio,Moda,89.5,86.88,2.93
+prd_d500fa66507e,Shorts Jeans,Moda,384.99,373.88,2.88
+prd_ebdebaf4cd37,Edredom Casal,Casa,39.9,38.76,2.86
+prd_dfac11815029,Microfone para Stream,Games,189.0,183.66,2.83
+prd_84a009f1889d,Cortina Box,Casa,32.9,31.98,2.8
+prd_b09d96e599b3,Marcador de Texto,Acessórios,203.9,198.8,2.5
+prd_9adbaa3083e1,Jaqueta Jeans,Moda,93.5,91.16,2.5
+prd_d51f590876b9,Boné Esportivo,Esporte,58.9,57.43,2.5
+prd_d205de276c20,Raquete de Tênis,Esporte,64.99,63.36,2.5
+prd_02dd786968a0,HD Externo 1TB,Eletrônicos,242.99,236.92,2.5
+prd_ff56c9132964,Regata Básica,Moda,213.99,208.64,2.5
+prd_55776d3e5c2a,Garrafa Esportiva,Esporte,183.9,179.3,2.5
+prd_6f0a4eefed22,Faqueiro Inox 12 Peças,Cozinha,39.99,38.99,2.5
+prd_8fa1119d3982,Roteador Wi-Fi 6,Eletrônicos,39.9,38.9,2.5
+prd_1e4ccab8af1a,Máscara Facial,Beleza,111.9,109.1,2.5
+prd_4e1abbd002eb,Mochila Esportiva,Esporte,44.9,43.78,2.5
+prd_84fc6c2a33f2,Abre-latas,Cozinha,393.9,384.05,2.5
+prd_2293732b7542,Cortina Blackout,Casa,68.9,67.2,2.47
+prd_4ee65ed59110,Frigideira Antiaderente,Cozinha,41.9,40.88,2.44
+prd_d22d1b8b1502,Camisa Social,Moda,1149.9,1122.75,2.36
+prd_a3ae425a3edd,Pesos de Pulso,Esporte,83.99,82.05,2.31
+prd_30518d908a92,Cinto de Couro,Acessórios,80.99,79.14,2.29
+prd_3308eb4d2b62,Cobertor de Lã,Casa,32.99,32.24,2.27
+prd_c90040774892,Tênis de Corrida,Esporte,147.99,144.7,2.22
+prd_51511e44c92a,Kit Gamer Completo,Games,88.9,86.98,2.15
+prd_ab011325c1be,Suporte para Controle,Games,31.99,31.35,2.0
+prd_fd4be5bad76d,Colchonete Yoga,Esporte,140.9,138.08,2.0
+prd_380fab5d7131,Porta-retrato,Casa,142.9,140.04,2.0
+prd_18c839427e8c,Gabinete ATX,Informática,798.9,783.92,1.88
+prd_28cd8ab86936,Porta-moedas,Acessórios,226.0,221.76,1.88
+prd_359246d9ed10,SSD 500GB,Eletrônicos,118.99,116.76,1.88
+prd_0aba258682b7,Vestido Floral,Moda,72.5,71.14,1.87
+prd_f1f39e56f84d,Bermuda Tactel,Moda,54.99,53.99,1.82
+prd_9b6e92e0766c,Casaco de Inverno,Moda,35.9,35.3,1.67
+prd_1f81bf3405b1,Fonte PC 500W,Informática,61.9,60.87,1.67
+prd_abc44b46bee1,Sabonete Facial,Beleza,149.9,147.4,1.67
+prd_6185cee255bc,Caixa de Som 2.1,Áudio,107.9,106.1,1.67
+prd_96fbc500aec1,Edredom Casal,Casa,58.9,57.92,1.67
+prd_9d7b9035daa0,Forma de Bolo Redonda,Cozinha,191.9,188.7,1.67
+prd_df1e44c528e0,Fone de Ouvido Esportivo,Áudio,192.99,189.77,1.67
+prd_6b1b9c7303d5,Peneira Inox,Cozinha,765.99,753.22,1.67
+prd_eea07161e6c8,Brincos de Prata,Acessórios,48.99,48.17,1.67
+prd_803bcbb7ef84,Porta-temperos,Cozinha,118.0,116.23,1.5
+prd_b4a823952be5,Amplificador de Áudio,Áudio,73.9,72.79,1.5
+prd_ff35b88df534,SSD 500GB,Eletrônicos,211.9,208.76,1.48
+prd_afd58e5fd09d,Condicionador Hidratante,Beleza,451.9,445.62,1.39
+prd_cc3053305ba7,iPhone 14,Eletrônicos,616.9,609.19,1.25
+prd_a479149bae3b,Edredom Casal,Casa,87.99,86.89,1.25
+prd_e580cb77e94a,Máscara Facial,Beleza,107.9,106.55,1.25
+prd_40dc70ce05b2,Assadeira de Vidro,Cozinha,1310.5,1294.12,1.25
+prd_3805ad8d3d2c,Adaptador HDMI-VGA,Informática,148.9,147.04,1.25
+prd_289cf61bbd5e,Porta-moedas,Acessórios,100.5,99.24,1.25
+prd_996db03524ae,Elástico de Resistência,Esporte,123.9,122.47,1.15
+prd_b4a98acf1a5f,Cardigan de Lã,Moda,35.9,35.54,1.0
+prd_473cb7923d3d,Kit Gamer Completo,Games,109.9,108.8,1.0
+prd_d0368e440753,Batom Matte,Beleza,34.9,34.61,0.84
+prd_3e42ffcc8dd9,Mochila Escolar,Acessórios,67.9,67.33,0.83
+prd_64000b956cf3,Tapete Persa,Casa,258.9,257.28,0.63
+prd_65c60230d4ed,Base Líquida,Beleza,99.9,99.35,0.55
+prd_4a5427b33a63,Mouse Pad Gamer,Informática,78.9,78.51,0.5
+prd_f6a0a3346af9,Carteira de Couro,Acessórios,273.9,273.9,0.0
+prd_1b8a6057bb97,Shampoo Anticaspa,Beleza,315.99,315.99,0.0
+prd_ea6b930ce9ac,Gravador de Voz,Áudio,156.99,156.99,0.0
+prd_5ae195cb554b,Microfone para Stream,Games,58.5,58.5,0.0
+prd_93ed035b2e9e,Peneira Inox,Cozinha,116.99,116.99,0.0
+prd_fce914504522,Headset Gamer 7.1,Games,74.99,74.99,0.0
+prd_052f1c397fc6,Carteira de Couro,Acessórios,66.99,66.99,0.0
+prd_84c0492c5dd9,Óculos de Natação,Esporte,132.0,132.0,0.0
+prd_35a61bfe666d,Teclado Mecânico RGB,Eletrônicos,55.99,55.99,0.0
+prd_694bd92302c1,Gabinete ATX,Informática,92.9,93.29,-0.42
+prd_474405dcce41,Brincos de Prata,Acessórios,67.9,68.38,-0.71
+prd_3fb63c4ea3c2,Óculos de Sol,Acessórios,164.99,166.36,-0.83
+prd_2365af16d827,Tela Mosquiteira,Casa,151.0,152.26,-0.83
+prd_727f175116c6,Bicicleta Ergométrica,Esporte,63.9,64.54,-1.0
+prd_3e585d1aaf6c,Gabinete ATX,Informática,209.9,213.4,-1.67
+prd_eda682ecfacb,Organizador de Gaveta,Casa,171.0,173.85,-1.67
+prd_899bd21840eb,Mixer de Áudio,Áudio,53.5,54.57,-2.0
+prd_951e09f3ecb1,Chaveiro Personalizado,Acessórios,48.99,49.97,-2.0
+prd_d21486ad974a,Teclado Gamer RGB,Games,307.5,315.19,-2.5

@@ -1,0 +1,12 @@
+categoria,indice_preco_medio,produtos,mais_caro_que_todos,receita,produtos_sem_venda
+Tênis,2.0,15,15,0.0,15
+Beleza,1.01,12,2,66852.52,0
+Informática,1.01,21,2,61410.87,1
+Moda,1.01,23,3,248124.15,1
+Cozinha,1.01,20,3,85059.89,1
+Acessórios,1.0,23,2,120909.94,2
+Eletrônicos,1.0,14,1,62826.28,1
+Games,1.0,19,2,50176.04,3
+Casa,1.0,30,3,112704.52,3
+Áudio,1.0,18,1,134867.29,1
+Esporte,1.0,20,1,24711.59,2

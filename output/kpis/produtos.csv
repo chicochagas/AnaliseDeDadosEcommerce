@@ -1,0 +1,206 @@
+id_produto,nome_produto,categoria,marca,receita,itens,pedidos,preco_medio_vendido,participacao_pct
+prd_d22d1b8b1502,Camisa Social,Moda,Brastemp,115794.92,103,72,1122.75,11.91
+prd_f063f46a7ef8,Fone de Ouvido Esportivo,Áudio,Consul,114268.47,85,64,1358.26,11.76
+prd_6d4e3b1efd0c,Necessaire,Acessórios,Xiaomi,63668.43,57,41,1102.45,6.55
+prd_334f4a32f979,Persiana Vertical,Casa,Motorola,42310.56,108,65,391.74,4.35
+prd_645f7859f379,Calça Jeans Skinny,Moda,Asus,41313.34,88,62,470.8,4.25
+prd_afd58e5fd09d,Condicionador Hidratante,Beleza,Asus,31587.75,71,54,445.62,3.25
+prd_d500fa66507e,Shorts Jeans,Moda,Electrolux,28431.49,76,52,373.88,2.93
+prd_8b22fd85d500,Garrafa Térmica 1L,Cozinha,Sony,21498.06,69,53,312.42,2.21
+prd_385035a5bc20,Notebook Inspiron 15,Eletrônicos,Adidas,20813.53,98,63,212.57,2.14
+prd_b7490508211e,Vestido Floral,Moda,Apple,17842.0,84,64,212.44,1.84
+prd_bf5d8671f7a9,Placa Mãe B450,Informática,Brastemp,15569.17,134,88,116.22,1.6
+prd_ff35b88df534,SSD 500GB,Eletrônicos,Acer,15214.52,73,54,208.76,1.57
+prd_045813f96891,Cardigan de Lã,Moda,LG,13898.58,102,62,136.99,1.43
+prd_dfac11815029,Microfone para Stream,Games,Apple,12294.45,67,46,183.66,1.27
+prd_92c0ecf60a58,Jogo de Toalhas,Casa,Brastemp,12011.76,69,47,174.16,1.24
+prd_ae7b2acb6812,Cinto de Couro,Acessórios,Samsung,11809.79,11,8,1074.25,1.22
+prd_40dc70ce05b2,Assadeira de Vidro,Cozinha,Lenovo,11663.44,9,8,1294.12,1.2
+prd_db8fc9e6fa53,Paleta de Sombras,Beleza,LG,10870.57,8,6,1349.94,1.12
+prd_2cbafff50c72,Sabonete Facial,Beleza,Nike,10826.78,112,73,96.62,1.11
+prd_686e2aab873d,Blusa de Frio,Moda,Philips,9589.86,110,70,86.88,0.99
+prd_0347eab01a6c,Memória RAM 8GB,Informática,Mondial,9202.2,15,11,606.08,0.95
+prd_2293732b7542,Cortina Blackout,Casa,Xiaomi,8733.04,130,85,67.2,0.9
+prd_18c839427e8c,Gabinete ATX,Informática,Samsung,8668.06,11,8,783.92,0.89
+prd_30518d908a92,Cinto de Couro,Acessórios,Asus,8410.78,107,70,79.14,0.87
+prd_38c1b898aecc,Microfone para Stream,Games,Samsung,8334.2,62,45,134.32,0.86
+prd_51511e44c92a,Kit Gamer Completo,Games,Mondial,8129.85,93,65,86.98,0.84
+prd_651e8d1acbf8,Processador de Alimentos,Cozinha,Brastemp,7554.61,17,13,448.81,0.78
+prd_9b4e39e312d9,Carteira de Couro,Acessórios,Asus,7405.94,6,6,1234.32,0.76
+prd_cc3053305ba7,iPhone 14,Eletrônicos,Motorola,6662.5,11,8,609.19,0.69
+prd_d92ad43fa137,Smart TV 43 Polegadas,Eletrônicos,Philips,6325.38,99,71,64.31,0.65
+prd_305f920b8836,Brincos de Prata,Acessórios,Lenovo,6174.29,7,7,882.04,0.64
+prd_9d1aea4d28ae,Pesos de Pulso,Esporte,Sony,6094.54,5,2,1258.66,0.63
+prd_7798c88cc490,Kit Utensílios de Cozinha,Cozinha,Consul,6074.79,14,9,447.4,0.63
+prd_3053916502fb,Cabo USB-C,Eletrônicos,Electrolux,5987.44,14,10,428.32,0.62
+prd_23664e42a71c,Jogo de Toalhas,Casa,Xiaomi,5517.07,52,37,105.74,0.57
+prd_a4025bac91a7,Óculos de Sol,Acessórios,Xiaomi,5321.61,104,69,51.17,0.55
+prd_4ee65ed59110,Frigideira Antiaderente,Cozinha,Philips,5061.36,124,84,40.88,0.52
+prd_9259039bf9b2,Tábua de Corte,Cozinha,Sony,4880.04,21,13,232.65,0.5
+prd_c62100cc281c,Webcam para Stream,Games,Samsung,4828.73,102,72,47.34,0.5
+prd_6b1b9c7303d5,Peneira Inox,Cozinha,Samsung,4557.64,6,3,753.22,0.47
+prd_1091c2cfe1e9,Edredom Casal,Casa,Sony,4557.12,11,8,412.59,0.47
+prd_9aa451566556,Jarra de Vidro,Cozinha,Apple,4513.23,12,10,384.02,0.46
+prd_6eca734f2e84,Edredom Casal,Casa,Electrolux,4411.6,20,14,218.22,0.45
+prd_b76e68fde5cb,Perfume 100ml,Beleza,Nike,4350.03,10,7,435.0,0.45
+prd_ff56c9132964,Regata Básica,Moda,Xiaomi,4140.7,20,16,208.64,0.43
+prd_3e585d1aaf6c,Gabinete ATX,Informática,LG,4072.06,19,12,213.4,0.42
+prd_df1e44c528e0,Fone de Ouvido Esportivo,Áudio,O Boticário,3994.89,21,15,189.77,0.41
+prd_0c5fb549e1c2,Edredom Casal,Casa,Dell,3743.13,13,10,285.54,0.39
+prd_9239eec8982d,HD Externo 2TB,Informática,Arno,3738.06,74,52,50.19,0.38
+prd_c29b93111bd9,Colar de Ouro,Acessórios,Arno,3713.87,19,13,198.94,0.38
+prd_032c166122f7,Controle Xbox,Games,Xiaomi,3573.39,17,11,208.91,0.37
+prd_5112469132ff,Placa Mãe B450,Informática,Dell,3535.41,9,5,401.09,0.36
+prd_e66747c9b59e,Cesto de Vime,Casa,Brastemp,3230.1,17,13,188.03,0.33
+prd_82cd17cb589d,Persiana Vertical,Casa,Dell,3111.46,73,49,42.97,0.32
+prd_64000b956cf3,Tapete Persa,Casa,Motorola,3093.85,12,8,257.28,0.32
+prd_07ff67746d02,Faqueiro Inox 12 Peças,Cozinha,Mondial,3058.95,10,8,305.1,0.31
+prd_205f309c1a21,Tapete Persa,Casa,Sony,3035.35,90,67,33.79,0.31
+prd_28cd8ab86936,Porta-moedas,Acessórios,Xiaomi,2881.5,13,8,221.76,0.3
+prd_295160cbf171,Controle Xbox,Games,Apple,2844.71,10,9,283.26,0.29
+prd_9d7b9035daa0,Forma de Bolo Redonda,Cozinha,O Boticário,2811.36,15,12,188.7,0.29
+prd_c1f6dcbed826,Descascador de Legumes,Cozinha,Adidas,2758.49,15,11,185.89,0.28
+prd_84a009f1889d,Cortina Box,Casa,Consul,2732.25,85,59,31.98,0.28
+prd_b17460641fb4,Garrafa Térmica 1L,Cozinha,Xiaomi,2723.88,12,6,229.99,0.28
+prd_622325b011e6,Iluminador para Stream,Games,Sony,2720.76,9,5,304.47,0.28
+prd_0c113961481f,Vestido Floral,Moda,Apple,2560.93,11,6,235.77,0.26
+prd_a4ee2d52d1c5,Suporte para Controle,Games,Arno,2534.71,12,5,207.48,0.26
+prd_728d12065bf5,Suporte para Monitor,Informática,Consul,2515.5,6,5,417.1,0.26
+prd_d8ec0b81e223,Toca-discos USB,Áudio,O Boticário,2454.53,7,5,353.3,0.25
+prd_56e08463d21c,Tapete Persa,Casa,Brastemp,2373.32,11,8,215.5,0.24
+prd_5a6fd66e1c00,Vestido Casual,Moda,Philips,2365.26,22,12,107.73,0.24
+prd_84fc6c2a33f2,Abre-latas,Cozinha,Sony,2284.6,6,4,384.05,0.24
+prd_e561d57f2a21,Caixa de Som 2.1,Áudio,Acer,2129.21,19,10,112.9,0.22
+prd_380fab5d7131,Porta-retrato,Casa,Philips,2114.92,15,10,140.04,0.22
+prd_996db03524ae,Elástico de Resistência,Esporte,Sony,2093.9,17,13,122.47,0.22
+prd_c90040774892,Tênis de Corrida,Esporte,Sony,2020.06,14,9,144.7,0.21
+prd_7dd7624b4d5f,Fone de Ouvido com Fio,Áudio,Brastemp,2010.82,7,5,283.0,0.21
+prd_5744e3f88341,Jarra de Vidro,Cozinha,Apple,1986.89,11,10,182.29,0.2
+prd_2befc441dd56,Bicicleta Ergométrica,Esporte,Motorola,1957.86,9,7,214.27,0.2
+prd_ef0b5e05efef,Creme Hidratante,Beleza,Electrolux,1908.83,8,6,235.5,0.2
+prd_eda682ecfacb,Organizador de Gaveta,Casa,Electrolux,1898.1,11,6,173.85,0.2
+prd_02dd786968a0,HD Externo 1TB,Eletrônicos,Adidas,1883.17,8,4,236.92,0.19
+prd_f7ed5522d23e,Macacão Feminino,Moda,Samsung,1858.16,8,5,230.75,0.19
+prd_9a3dfc23b7a3,Relógio Analógico,Acessórios,Mondial,1840.95,18,13,101.03,0.19
+prd_e3934c71bd0c,Meia Esportiva,Esporte,Sony,1822.33,5,5,364.47,0.19
+prd_92c4758afec3,Vestido Floral,Moda,Arno,1776.14,6,4,301.46,0.18
+prd_1e4ccab8af1a,Máscara Facial,Beleza,Apple,1740.06,16,10,109.1,0.18
+prd_bf94f6ee7033,Mochila Esportiva,Esporte,Sony,1660.84,22,11,75.67,0.17
+prd_6343e70ed4b9,Sérum Vitamina C,Beleza,Xiaomi,1626.4,11,9,146.93,0.17
+prd_47a25ae10c23,Soundbar TV,Áudio,Acer,1610.71,19,16,86.21,0.17
+prd_9adbaa3083e1,Jaqueta Jeans,Moda,Sony,1608.19,18,12,91.16,0.17
+prd_55776d3e5c2a,Garrafa Esportiva,Esporte,Adidas,1572.34,9,6,179.3,0.16
+prd_ea6b930ce9ac,Gravador de Voz,Áudio,Lenovo,1569.9,10,9,156.99,0.16
+prd_d21486ad974a,Teclado Gamer RGB,Games,Motorola,1568.25,5,4,315.19,0.16
+prd_803bcbb7ef84,Porta-temperos,Cozinha,Samsung,1534.0,13,10,116.23,0.16
+prd_ebb0865fc95d,Fone Gamer RGB,Áudio,Arno,1522.31,9,8,168.29,0.16
+prd_5437b387f602,Webcam 1080p,Informática,LG,1515.54,7,6,214.61,0.16
+prd_694bd92302c1,Gabinete ATX,Informática,Mondial,1491.04,16,12,93.29,0.15
+prd_08fc82e8b75d,Persiana Vertical,Casa,Acer,1475.51,11,7,132.97,0.15
+prd_f79cf82f8ee0,Caixa de Som JBL,Eletrônicos,Mondial,1462.35,7,5,211.11,0.15
+prd_7a89c1a36f9e,Mesa para Notebook,Informática,Puma,1454.59,3,3,484.86,0.15
+prd_6442b103f637,Adaptador HDMI-VGA,Informática,Arno,1454.51,5,5,290.9,0.15
+prd_40902505f7f1,Fonte PC 500W,Informática,Philips,1438.11,3,3,479.37,0.15
+prd_1974423eecee,Suporte para Monitor,Informática,LG,1414.73,9,5,157.92,0.15
+prd_4a5427b33a63,Mouse Pad Gamer,Informática,Sony,1412.3,18,10,78.51,0.15
+prd_223c9b6a0a76,Luminária de Mesa,Casa,Mondial,1377.42,18,13,77.26,0.14
+prd_6212ac3178f2,Óculos de Natação,Esporte,Samsung,1369.33,10,6,137.66,0.14
+prd_2255432fabe7,Marcador de Texto,Acessórios,Nike,1361.88,12,9,115.32,0.14
+prd_c9b4024b7b9e,Toca-discos USB,Áudio,Mondial,1346.52,15,12,90.32,0.14
+prd_08611917c0ae,Relógio de Parede,Casa,Adidas,1335.47,13,10,101.75,0.14
+prd_a3ae425a3edd,Pesos de Pulso,Esporte,Philips,1318.64,16,13,82.05,0.14
+prd_22f73233f9a5,Notebook Inspiron 15,Eletrônicos,O Boticário,1293.54,13,10,100.78,0.13
+prd_faf3fd1a4155,Cinto de Couro,Acessórios,Dell,1286.2,13,8,99.68,0.13
+prd_1b8a6057bb97,Shampoo Anticaspa,Beleza,Sony,1263.96,4,4,315.99,0.13
+prd_142839b15f63,Vestido Casual,Moda,Xiaomi,1248.74,13,8,95.77,0.13
+prd_89d76b194110,Travesseiro Ortopédico,Casa,Sony,1214.93,7,4,168.74,0.13
+prd_fb32df842fbd,Vestido Floral,Moda,Consul,1170.54,13,9,89.8,0.12
+prd_c50822dc2e7c,Teclado Mecânico RGB,Eletrônicos,Philips,1086.35,5,5,217.27,0.11
+prd_f1f39e56f84d,Bermuda Tactel,Moda,Motorola,1080.55,20,11,53.99,0.11
+prd_65c60230d4ed,Base Líquida,Beleza,Asus,1073.93,11,9,99.35,0.11
+prd_359246d9ed10,SSD 500GB,Eletrônicos,Dell,1053.06,9,8,116.76,0.11
+prd_815b38747487,Conjunto de Malha,Moda,Brastemp,1029.33,13,6,82.9,0.11
+prd_3fb63c4ea3c2,Óculos de Sol,Acessórios,Arno,998.19,6,6,166.36,0.1
+prd_9f5272275347,Marcador de Texto,Acessórios,Sony,981.74,17,10,57.12,0.1
+prd_84c0492c5dd9,Óculos de Natação,Esporte,Samsung,924.0,7,7,132.0,0.1
+prd_eea07161e6c8,Brincos de Prata,Acessórios,Electrolux,921.01,19,9,48.17,0.09
+prd_2365af16d827,Tela Mosquiteira,Casa,Brastemp,913.55,6,6,152.26,0.09
+prd_3e42ffcc8dd9,Mochila Escolar,Acessórios,Acer,886.08,13,6,67.33,0.09
+prd_8924837a2a70,prd_8924837a2a70,Sem cadastro,Sem cadastro,873.8,2,1,436.9,0.09
+prd_a17c779dd289,Gravador de Voz,Áudio,Asus,869.68,14,11,62.25,0.09
+prd_f8e027f417be,Placa Mãe B450,Informática,O Boticário,859.26,5,4,171.85,0.09
+prd_289cf61bbd5e,Porta-moedas,Acessórios,Consul,793.94,8,8,99.24,0.08
+prd_1f81bf3405b1,Fonte PC 500W,Informática,O Boticário,792.3,13,9,60.87,0.08
+prd_0aba258682b7,Vestido Floral,Moda,Adidas,783.01,11,8,71.14,0.08
+prd_206eacaa3048,Joystick Arcade,Games,Asus,772.13,7,7,110.3,0.08
+prd_b4a823952be5,Amplificador de Áudio,Áudio,Consul,727.91,10,10,72.79,0.07
+prd_6ae727ee4463,Placa Mãe B450,Informática,Xiaomi,703.0,10,9,70.71,0.07
+prd_e55f1f3ae9ad,SSD 500GB,Eletrônicos,Arno,701.04,10,7,69.33,0.07
+prd_fd4be5bad76d,Colchonete Yoga,Esporte,Sony,690.41,5,5,138.08,0.07
+prd_93ed035b2e9e,Peneira Inox,Cozinha,Arno,678.54,6,4,116.99,0.07
+prd_a7c360e156c0,Gabinete ATX,Informática,Motorola,662.16,4,4,165.54,0.07
+prd_473cb7923d3d,Kit Gamer Completo,Games,Motorola,653.91,6,5,108.8,0.07
+prd_96fbc500aec1,Edredom Casal,Casa,Asus,644.95,11,9,57.92,0.07
+prd_e580cb77e94a,Máscara Facial,Beleza,Mondial,642.0,6,4,106.55,0.07
+prd_dd8079e89b90,Porta-retrato,Casa,Nike,641.01,8,8,80.13,0.07
+prd_727f175116c6,Bicicleta Ergométrica,Esporte,Apple,638.99,10,5,64.54,0.07
+prd_4e1abbd002eb,Mochila Esportiva,Esporte,Samsung,617.36,14,10,43.78,0.06
+prd_474405dcce41,Brincos de Prata,Acessórios,Motorola,614.49,9,7,68.38,0.06
+prd_a479149bae3b,Edredom Casal,Casa,Electrolux,607.13,7,4,86.89,0.06
+prd_3805ad8d3d2c,Adaptador HDMI-VGA,Informática,Apple,588.16,4,4,147.04,0.06
+prd_06c19781c3db,Assadeira de Vidro,Cozinha,Nike,585.22,6,5,96.86,0.06
+prd_2bf8388221ea,Mouse Gamer RGB,Games,Asus,579.88,12,9,47.77,0.06
+prd_1649b8a625e4,Fone de Ouvido Bluetooth,Áudio,Adidas,564.3,6,5,94.05,0.06
+prd_f6a0a3346af9,Carteira de Couro,Acessórios,LG,547.8,2,2,273.9,0.06
+prd_899bd21840eb,Mixer de Áudio,Áudio,O Boticário,540.35,10,5,54.57,0.06
+prd_90725b7ac0e8,Espelho de Parede,Casa,Adidas,537.13,7,5,75.83,0.06
+prd_fce914504522,Headset Gamer 7.1,Games,Brastemp,524.93,7,4,74.99,0.05
+prd_d51f590876b9,Boné Esportivo,Esporte,O Boticário,521.26,9,6,57.43,0.05
+prd_d0368e440753,Batom Matte,Beleza,Adidas,520.0,15,12,34.61,0.05
+prd_76ede0cece8f,Óculos de Natação,Esporte,Lenovo,504.6,9,7,55.51,0.05
+prd_052f1c397fc6,Carteira de Couro,Acessórios,Philips,482.33,7,5,66.99,0.05
+prd_0454b1b9fe21,prd_0454b1b9fe21,Sem cadastro,Sem cadastro,477.98,2,1,238.99,0.05
+prd_3bee9877eb80,Rádio AM/FM,Áudio,Lenovo,473.2,11,10,43.0,0.05
+prd_b2fdb7f36a3f,Blusa de Algodão,Moda,LG,442.46,9,7,49.2,0.05
+prd_abc44b46bee1,Sabonete Facial,Beleza,Asus,442.21,3,3,147.4,0.05
+prd_6742b65088d8,Porta-temperos,Cozinha,Adidas,440.89,11,6,39.89,0.05
+prd_7af81d9a08ba,Controle PlayStation,Games,O Boticário,419.91,9,7,46.42,0.04
+prd_951e09f3ecb1,Chaveiro Personalizado,Acessórios,LG,411.52,8,5,49.97,0.04
+prd_007af8c5fb0e,prd_007af8c5fb0e,Sem cadastro,Sem cadastro,399.58,2,1,199.79,0.04
+prd_b09d96e599b3,Marcador de Texto,Acessórios,Asus,397.6,2,2,198.8,0.04
+prd_6f0a4eefed22,Faqueiro Inox 12 Peças,Cozinha,Apple,393.9,10,6,38.99,0.04
+prd_3dd1d39581ca,Halteres Ajustáveis,Esporte,Asus,389.47,8,6,48.57,0.04
+prd_3308eb4d2b62,Cobertor de Lã,Casa,Arno,385.98,12,11,32.24,0.04
+prd_11bf1703f8e9,Caixa de Som Portátil,Áudio,O Boticário,374.4,8,5,46.08,0.04
+prd_9b6e92e0766c,Casaco de Inverno,Moda,Arno,357.19,10,9,35.3,0.04
+prd_b4a98acf1a5f,Cardigan de Lã,Moda,LG,355.4,10,5,35.54,0.04
+prd_ebdebaf4cd37,Edredom Casal,Casa,Xiaomi,349.11,9,7,38.76,0.04
+prd_11a9489c4c86,Porta-retrato,Casa,Asus,348.7,5,5,69.74,0.04
+prd_31b74a170d35,Saia Midi,Moda,Consul,338.99,5,4,69.26,0.03
+prd_74b8e2ff8f97,prd_74b8e2ff8f97,Sem cadastro,Sem cadastro,327.9,1,1,327.9,0.03
+prd_c9ce9d378723,Processador Intel i5,Informática,Electrolux,324.71,8,6,40.5,0.03
+prd_6185cee255bc,Caixa de Som 2.1,Áudio,LG,318.3,3,3,106.1,0.03
+prd_235a85c800bf,prd_235a85c800bf,Sem cadastro,Sem cadastro,278.98,2,1,139.49,0.03
+prd_c708b046fef8,Halteres Ajustáveis,Esporte,Mondial,262.2,6,4,43.7,0.03
+prd_d205de276c20,Raquete de Tênis,Esporte,Sony,253.46,4,4,63.36,0.03
+prd_8dcaa6bdfbb9,prd_8dcaa6bdfbb9,Sem cadastro,Sem cadastro,238.99,1,1,238.99,0.02
+prd_8fa1119d3982,Roteador Wi-Fi 6,Eletrônicos,Adidas,231.42,6,4,38.9,0.02
+prd_c366b8673062,prd_c366b8673062,Sem cadastro,Sem cadastro,223.19,1,1,223.19,0.02
+prd_ab011325c1be,Suporte para Controle,Games,Samsung,220.73,7,5,31.35,0.02
+prd_cb9e965f2314,prd_cb9e965f2314,Sem cadastro,Sem cadastro,202.82,1,1,202.82,0.02
+prd_5ae195cb554b,Microfone para Stream,Games,Samsung,175.5,3,2,58.5,0.02
+prd_7edb1c123c6a,prd_7edb1c123c6a,Sem cadastro,Sem cadastro,172.9,1,1,172.9,0.02
+prd_931ff6d38056,prd_931ff6d38056,Sem cadastro,Sem cadastro,147.89,1,1,147.89,0.02
+prd_e772a9cda46d,Blusa de Algodão,Moda,LG,138.37,4,4,34.59,0.01
+prd_3d2453a6e728,prd_3d2453a6e728,Sem cadastro,Sem cadastro,134.1,2,1,67.05,0.01
+prd_35a61bfe666d,Teclado Mecânico RGB,Eletrônicos,Xiaomi,111.98,2,2,55.99,0.01
+prd_84adbd000991,prd_84adbd000991,Sem cadastro,Sem cadastro,106.0,1,1,106.0,0.01
+prd_ef1a185da3aa,prd_ef1a185da3aa,Sem cadastro,Sem cadastro,105.21,1,1,105.21,0.01
+prd_91cfa7eada76,prd_91cfa7eada76,Sem cadastro,Sem cadastro,100.99,1,1,100.99,0.01
+prd_65574e733561,prd_65574e733561,Sem cadastro,Sem cadastro,97.9,1,1,97.9,0.01
+prd_0b790b565ff2,Mixer de Áudio,Áudio,Sony,91.79,1,1,91.79,0.01
+prd_7f61cfa619e3,prd_7f61cfa619e3,Sem cadastro,Sem cadastro,87.9,1,1,87.9,0.01
+prd_2b1b2e2c60e1,prd_2b1b2e2c60e1,Sem cadastro,Sem cadastro,85.9,1,1,85.9,0.01
+prd_b161f952f659,prd_b161f952f659,Sem cadastro,Sem cadastro,77.9,1,1,77.9,0.01
+prd_59109bac228a,prd_59109bac228a,Sem cadastro,Sem cadastro,73.09,1,1,73.09,0.01
+prd_b3d5d6aac3ff,prd_b3d5d6aac3ff,Sem cadastro,Sem cadastro,26.99,1,1,26.99,0.0

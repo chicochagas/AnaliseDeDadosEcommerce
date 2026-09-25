@@ -1,0 +1,216 @@
+id_produto,nome_produto,categoria,preco_atual,preco_medio_concorrencia,menor_preco_concorrencia,maior_preco_concorrencia,concorrentes,indice_preco,posicao,receita
+prd_f325ffd3f299,Tênis Adidas Samba,Tênis,43.9,21.95,21.95,21.95,4,2.0,Mais caro que todos,0.0
+prd_fcd221b5cb48,Tênis Puma Future,Tênis,123.99,61.99,61.99,61.99,4,2.0,Mais caro que todos,0.0
+prd_4327485950d4,Tênis Nike Revolution,Tênis,105.9,52.95,52.95,52.95,4,2.0,Mais caro que todos,0.0
+prd_c4c05e57d1ff,Tênis Nike Dunk,Tênis,95.9,47.95,47.95,47.95,4,2.0,Mais caro que todos,0.0
+prd_1317c4a1f775,Tênis Puma Speedcat,Tênis,451.9,225.95,225.95,225.95,4,2.0,Mais caro que todos,0.0
+prd_4219bde6f03a,Tênis Nike Air Max,Tênis,68.99,34.49,34.49,34.49,3,2.0,Mais caro que todos,0.0
+prd_f4d216bbeb27,Tênis Puma Future,Tênis,67.9,33.95,33.95,33.95,3,2.0,Mais caro que todos,0.0
+prd_225ae25e0a4f,Tênis Puma Suede,Tênis,404.5,202.25,202.25,202.25,4,2.0,Mais caro que todos,0.0
+prd_c632a36ece80,Tênis Nike Air Max,Tênis,64.9,32.45,32.45,32.45,3,2.0,Mais caro que todos,0.0
+prd_1757e5a44e02,Tênis Nike Blazer,Tênis,37.9,18.95,18.95,18.95,4,2.0,Mais caro que todos,0.0
+prd_d5b7bdafd562,Tênis Adidas Stan Smith,Tênis,197.9,98.95,98.95,98.95,3,2.0,Mais caro que todos,0.0
+prd_39484d5e0b36,Tênis Nike Revolution,Tênis,69.9,34.95,34.95,34.95,4,2.0,Mais caro que todos,0.0
+prd_da5c2c38df2e,Tênis Nike Court,Tênis,31.9,15.95,15.95,15.95,3,2.0,Mais caro que todos,0.0
+prd_d17f09896254,Tênis Nike Revolution,Tênis,174.9,87.45,87.45,87.45,4,2.0,Mais caro que todos,0.0
+prd_face62224c50,Tênis Adidas Stan Smith,Tênis,38.99,19.5,19.5,19.5,4,2.0,Mais caro que todos,0.0
+prd_d22d1b8b1502,Camisa Social,Moda,1149.9,1075.16,1057.91,1092.4,2,1.07,Mais caro que todos,115794.92
+prd_0347eab01a6c,Memória RAM 8GB,Informática,626.0,585.31,575.92,594.7,4,1.07,Mais caro que todos,9202.2
+prd_b2fdb7f36a3f,Blusa de Algodão,Moda,52.99,49.54,48.75,50.34,2,1.07,Mais caro que todos,442.46
+prd_5112469132ff,Placa Mãe B450,Informática,413.5,388.69,380.42,392.82,3,1.06,Mais caro que todos,3535.41
+prd_052f1c397fc6,Carteira de Couro,Acessórios,66.99,62.97,61.63,65.65,3,1.06,Mais caro que todos,482.33
+prd_6212ac3178f2,Óculos de Natação,Esporte,144.9,137.3,133.31,149.25,4,1.06,Intermediário,1369.33
+prd_289cf61bbd5e,Porta-moedas,Acessórios,100.5,95.47,92.46,98.49,3,1.05,Mais caro que todos,793.94
+prd_4ee65ed59110,Frigideira Antiaderente,Cozinha,41.9,39.8,39.8,39.8,1,1.05,Mais caro que todos,5061.36
+prd_6b1b9c7303d5,Peneira Inox,Cozinha,765.99,727.69,727.69,727.69,2,1.05,Mais caro que todos,4557.64
+prd_db8fc9e6fa53,Paleta de Sombras,Beleza,1420.99,1349.94,1307.31,1392.57,4,1.05,Mais caro que todos,10870.57
+prd_06c19781c3db,Assadeira de Vidro,Cozinha,100.9,95.86,92.83,98.88,3,1.05,Mais caro que todos,585.22
+prd_ab011325c1be,Suporte para Controle,Games,31.99,30.39,29.43,31.35,4,1.05,Mais caro que todos,220.73
+prd_5ae195cb554b,Microfone para Stream,Games,58.5,55.58,53.82,57.33,2,1.05,Mais caro que todos,175.5
+prd_c9b4024b7b9e,Toca-discos USB,Áudio,95.5,91.2,87.86,95.5,4,1.05,Intermediário,1346.52
+prd_9120195f0253,Mouse Pad Gamer,Informática,126.99,121.49,116.83,126.99,3,1.04,Intermediário,0.0
+prd_1091c2cfe1e9,Edredom Casal,Casa,425.9,408.86,404.6,417.38,3,1.04,Mais caro que todos,4557.12
+prd_fb32df842fbd,Vestido Floral,Moda,92.9,89.18,85.47,92.9,2,1.04,Intermediário,1170.54
+prd_1649b8a625e4,Fone de Ouvido Bluetooth,Áudio,99.0,95.04,94.05,97.02,3,1.04,Mais caro que todos,564.3
+prd_35a61bfe666d,Teclado Mecânico RGB,Eletrônicos,55.99,54.03,53.19,54.87,2,1.04,Mais caro que todos,111.98
+prd_dd8079e89b90,Porta-retrato,Casa,84.9,81.93,80.66,83.2,4,1.04,Mais caro que todos,641.01
+prd_c708b046fef8,Halteres Ajustáveis,Esporte,46.0,44.39,43.7,45.08,2,1.04,Mais caro que todos,262.2
+prd_eea07161e6c8,Brincos de Prata,Acessórios,48.99,47.36,45.07,50.46,3,1.03,Intermediário,921.01
+prd_65c60230d4ed,Base Líquida,Beleza,99.9,96.57,94.91,99.9,3,1.03,Intermediário,1073.93
+prd_93ed035b2e9e,Peneira Inox,Cozinha,116.99,113.09,107.63,116.99,3,1.03,Intermediário,678.54
+prd_3cf08e85ad27,Suporte para Controle,Games,31.9,30.84,29.35,32.86,3,1.03,Intermediário,0.0
+prd_cc3053305ba7,iPhone 14,Eletrônicos,616.9,596.34,567.55,616.9,3,1.03,Intermediário,6662.5
+prd_5a6fd66e1c00,Vestido Casual,Moda,112.9,109.14,103.87,116.29,3,1.03,Intermediário,2365.26
+prd_23664e42a71c,Jogo de Toalhas,Casa,109.9,106.24,104.41,109.9,3,1.03,Intermediário,5517.07
+prd_9adbaa3083e1,Jaqueta Jeans,Moda,93.5,90.39,86.02,96.31,3,1.03,Intermediário,1608.19
+prd_854644557483,Boné Esportivo,Esporte,64.9,62.96,59.71,66.85,4,1.03,Intermediário,0.0
+prd_1e4ccab8af1a,Máscara Facial,Beleza,111.9,108.54,106.31,109.66,3,1.03,Mais caro que todos,1740.06
+prd_38c1b898aecc,Microfone para Stream,Games,140.9,136.67,133.85,140.9,4,1.03,Intermediário,8334.2
+prd_4a5427b33a63,Mouse Pad Gamer,Informática,78.9,76.93,72.59,83.63,4,1.03,Intermediário,1412.3
+prd_08611917c0ae,Relógio de Parede,Casa,105.99,103.34,97.51,109.17,4,1.03,Intermediário,1335.47
+prd_803bcbb7ef84,Porta-temperos,Cozinha,118.0,115.05,108.56,121.54,4,1.03,Intermediário,1534.0
+prd_2255432fabe7,Marcador de Texto,Acessórios,119.99,116.99,110.39,119.99,4,1.03,Intermediário,1361.88
+prd_5437b387f602,Webcam 1080p,Informática,227.9,222.58,216.5,234.74,3,1.02,Intermediário,1515.54
+prd_6747a9118767,Mouse Gamer Logitech,Eletrônicos,55.5,54.2,52.72,57.16,3,1.02,Intermediário,0.0
+prd_951e09f3ecb1,Chaveiro Personalizado,Acessórios,48.99,47.85,45.07,51.93,3,1.02,Intermediário,411.52
+prd_7dd7624b4d5f,Fone de Ouvido com Fio,Áudio,297.9,291.2,283.0,297.9,4,1.02,Intermediário,2010.82
+prd_334f4a32f979,Persiana Vertical,Casa,404.5,395.4,384.27,404.5,4,1.02,Intermediário,42310.56
+prd_1974423eecee,Suporte para Monitor,Informática,164.5,160.8,156.28,164.5,4,1.02,Intermediário,1414.73
+prd_d500fa66507e,Shorts Jeans,Moda,384.99,376.33,365.74,396.54,4,1.02,Intermediário,28431.49
+prd_84c0492c5dd9,Óculos de Natação,Esporte,132.0,129.03,125.4,135.96,4,1.02,Intermediário,924.0
+prd_6ae727ee4463,Placa Mãe B450,Informática,74.0,72.33,68.08,76.22,4,1.02,Intermediário,703.0
+prd_ebb0865fc95d,Fone Gamer RGB,Áudio,175.99,172.03,167.19,181.27,4,1.02,Intermediário,1522.31
+prd_f7ed5522d23e,Macacão Feminino,Moda,242.9,237.43,230.75,250.19,4,1.02,Intermediário,1858.16
+prd_92c4758afec3,Vestido Floral,Moda,325.9,319.38,319.38,319.38,2,1.02,Mais caro que todos,1776.14
+prd_c11c85a4804c,Quadro Decorativo,Casa,93.99,92.11,92.11,92.11,3,1.02,Mais caro que todos,0.0
+prd_223c9b6a0a76,Luminária de Mesa,Casa,81.99,80.55,77.89,81.99,4,1.02,Intermediário,1377.42
+prd_e580cb77e94a,Máscara Facial,Beleza,107.9,106.01,99.27,111.14,4,1.02,Intermediário,642.0
+prd_c62100cc281c,Webcam para Stream,Games,48.9,48.04,46.45,50.37,4,1.02,Intermediário,4828.73
+prd_11bf1703f8e9,Caixa de Som Portátil,Áudio,48.0,47.16,45.6,48.0,4,1.02,Intermediário,374.4
+prd_84a009f1889d,Cortina Box,Casa,32.9,32.32,31.25,33.89,4,1.02,Intermediário,2732.25
+prd_fce914504522,Headset Gamer 7.1,Games,74.99,73.68,71.24,74.99,4,1.02,Intermediário,524.93
+prd_a4ee2d52d1c5,Suporte para Controle,Games,213.9,210.33,203.2,213.9,3,1.02,Intermediário,2534.71
+prd_02dd786968a0,HD Externo 1TB,Eletrônicos,242.99,239.34,238.13,242.99,4,1.01,Intermediário,1883.17
+prd_b4a98acf1a5f,Cardigan de Lã,Moda,35.9,35.36,34.1,36.98,4,1.01,Intermediário,355.4
+prd_2cc016f9687b,Vestido Casual,Moda,199.9,196.9,189.91,205.9,4,1.01,Intermediário,0.0
+prd_0c6ab223bfd4,Post-it,Acessórios,88.9,87.56,81.79,94.23,4,1.01,Intermediário,0.0
+prd_b76e68fde5cb,Perfume 100ml,Beleza,457.9,451.79,435.0,471.64,3,1.01,Intermediário,4350.03
+prd_df1e44c528e0,Fone de Ouvido Esportivo,Áudio,192.99,190.42,189.13,192.99,3,1.01,Intermediário,3994.89
+prd_5da705f2fce5,Mouse Gamer RGB,Games,49.0,48.35,48.02,49.0,3,1.01,Intermediário,0.0
+prd_07ff67746d02,Faqueiro Inox 12 Peças,Cozinha,316.99,312.76,301.14,326.5,3,1.01,Intermediário,3058.95
+prd_7798c88cc490,Kit Utensílios de Cozinha,Cozinha,465.5,459.29,442.22,493.43,3,1.01,Intermediário,6074.79
+prd_55776d3e5c2a,Garrafa Esportiva,Esporte,183.9,181.45,174.7,189.42,3,1.01,Intermediário,1572.34
+prd_d205de276c20,Raquete de Tênis,Esporte,64.99,64.12,63.69,64.99,3,1.01,Intermediário,253.46
+prd_c90040774892,Tênis de Corrida,Esporte,147.99,146.02,140.59,152.43,3,1.01,Intermediário,2020.06
+prd_2293732b7542,Cortina Blackout,Casa,68.9,67.98,65.45,70.97,3,1.01,Intermediário,8733.04
+prd_f79cf82f8ee0,Caixa de Som JBL,Eletrônicos,219.9,216.97,208.91,226.5,3,1.01,Intermediário,1462.35
+prd_3e42ffcc8dd9,Mochila Escolar,Acessórios,67.9,66.99,64.5,69.94,3,1.01,Intermediário,886.08
+prd_84fc6c2a33f2,Abre-latas,Cozinha,393.9,388.65,374.2,405.72,3,1.01,Intermediário,2284.6
+prd_1b8a6057bb97,Shampoo Anticaspa,Beleza,315.99,312.04,290.71,347.59,4,1.01,Intermediário,1263.96
+prd_6eca734f2e84,Edredom Casal,Casa,227.99,225.14,209.75,234.83,4,1.01,Intermediário,4411.6
+prd_bf94f6ee7033,Mochila Esportiva,Esporte,78.9,77.92,72.59,81.27,4,1.01,Intermediário,1660.84
+prd_3805ad8d3d2c,Adaptador HDMI-VGA,Informática,148.9,147.04,136.99,153.37,4,1.01,Intermediário,588.16
+prd_d21486ad974a,Teclado Gamer RGB,Games,307.5,304.42,282.9,325.95,4,1.01,Intermediário,1568.25
+prd_9b4e39e312d9,Carteira de Couro,Acessórios,1287.99,1275.11,1262.23,1287.99,2,1.01,Intermediário,7405.94
+prd_d0368e440753,Batom Matte,Beleza,34.9,34.55,33.15,35.95,2,1.01,Intermediário,520.0
+prd_ae7b2acb6812,Cinto de Couro,Acessórios,1108.9,1097.81,1020.19,1175.43,4,1.01,Intermediário,11809.79
+prd_3308eb4d2b62,Cobertor de Lã,Casa,32.99,32.66,30.35,34.97,2,1.01,Intermediário,385.98
+prd_0c113961481f,Vestido Floral,Moda,243.9,241.46,239.02,243.9,2,1.01,Intermediário,2560.93
+prd_3053916502fb,Cabo USB-C,Eletrônicos,448.5,444.02,412.62,475.41,4,1.01,Intermediário,5987.44
+prd_1f81bf3405b1,Fonte PC 500W,Informática,61.9,61.28,58.8,63.76,4,1.01,Intermediário,792.3
+prd_40902505f7f1,Fonte PC 500W,Informática,495.9,490.94,456.23,525.65,4,1.01,Intermediário,1438.11
+prd_305f920b8836,Brincos de Prata,Acessórios,935.5,926.14,888.72,963.57,4,1.01,Intermediário,6174.29
+prd_dfac11815029,Microfone para Stream,Games,189.0,187.11,173.88,200.34,4,1.01,Intermediário,12294.45
+prd_6343e70ed4b9,Sérum Vitamina C,Beleza,152.0,150.48,139.84,167.2,3,1.01,Intermediário,1626.4
+prd_eda682ecfacb,Organizador de Gaveta,Casa,171.0,169.72,162.45,181.26,4,1.01,Intermediário,1898.1
+prd_b09d96e599b3,Marcador de Texto,Acessórios,203.9,202.37,193.7,216.13,4,1.01,Intermediário,397.6
+prd_9aa451566556,Jarra de Vidro,Cozinha,395.9,392.93,376.1,419.65,4,1.01,Intermediário,4513.23
+prd_f35f1b6d73bf,Fone Gamer Wireless,Games,93.99,93.36,89.29,96.81,3,1.01,Intermediário,0.0
+prd_3bee9877eb80,Rádio AM/FM,Áudio,45.5,45.2,41.86,48.23,3,1.01,Intermediário,473.2
+prd_3e585d1aaf6c,Gabinete ATX,Informática,209.9,208.5,199.41,216.2,3,1.01,Intermediário,4072.06
+prd_0aba258682b7,Vestido Floral,Moda,72.5,72.01,66.7,74.67,3,1.01,Intermediário,783.01
+prd_9259039bf9b2,Tábua de Corte,Cozinha,240.99,239.38,228.94,248.22,3,1.01,Intermediário,4880.04
+prd_a4025bac91a7,Óculos de Sol,Acessórios,52.9,52.55,48.67,56.07,3,1.01,Intermediário,5321.61
+prd_b7490508211e,Vestido Floral,Moda,220.0,218.9,209.0,226.6,4,1.0,Intermediário,17842.0
+prd_0c5fb549e1c2,Edredom Casal,Casa,295.9,294.42,272.23,304.78,4,1.0,Intermediário,3743.13
+prd_fd4be5bad76d,Colchonete Yoga,Esporte,140.9,140.2,133.85,145.13,4,1.0,Intermediário,690.41
+prd_ff35b88df534,SSD 500GB,Eletrônicos,211.9,210.84,194.95,224.61,4,1.0,Intermediário,15214.52
+prd_142839b15f63,Vestido Casual,Moda,99.5,99.17,97.51,102.48,3,1.0,Intermediário,1248.74
+prd_c50822dc2e7c,Teclado Mecânico RGB,Eletrônicos,223.99,223.43,206.07,237.43,4,1.0,Intermediário,1086.35
+prd_2365af16d827,Tela Mosquiteira,Casa,151.0,150.62,147.98,155.53,4,1.0,Intermediário,913.55
+prd_28cd8ab86936,Porta-moedas,Acessórios,226.0,225.25,221.48,232.78,3,1.0,Intermediário,2881.5
+prd_bf5d8671f7a9,Placa Mãe B450,Informática,119.9,119.5,113.91,127.09,3,1.0,Intermediário,15569.17
+prd_e66747c9b59e,Cesto de Vime,Casa,194.0,193.52,178.48,205.64,4,1.0,Intermediário,3230.1
+prd_ebdebaf4cd37,Edredom Casal,Casa,39.9,39.8,37.9,42.29,4,1.0,Intermediário,349.11
+prd_56e08463d21c,Tapete Persa,Casa,223.9,223.15,219.42,230.62,3,1.0,Intermediário,2373.32
+prd_385035a5bc20,Notebook Inspiron 15,Eletrônicos,219.9,219.17,215.5,226.5,3,1.0,Intermediário,20813.53
+prd_ef0b5e05efef,Creme Hidratante,Beleza,247.9,247.07,242.94,255.34,3,1.0,Intermediário,1908.83
+prd_52514818b0b6,Raquete de Tênis,Esporte,69.9,69.73,66.41,72.0,4,1.0,Intermediário,0.0
+prd_7af81d9a08ba,Controle PlayStation,Games,49.99,49.99,47.49,54.99,4,1.0,Intermediário,419.91
+prd_e55f1f3ae9ad,SSD 500GB,Eletrônicos,71.9,71.9,71.9,71.9,2,1.0,Intermediário,701.04
+prd_f1f39e56f84d,Bermuda Tactel,Moda,54.99,54.99,53.89,58.29,4,1.0,Intermediário,1080.55
+prd_a3ae425a3edd,Pesos de Pulso,Esporte,83.99,83.99,83.99,83.99,3,1.0,Intermediário,1318.64
+prd_0b790b565ff2,Mixer de Áudio,Áudio,107.99,107.99,99.35,118.79,4,1.0,Intermediário,91.79
+prd_7a89c1a36f9e,Mesa para Notebook,Informática,519.5,519.5,509.11,550.67,4,1.0,Intermediário,1454.59
+prd_6d4e3b1efd0c,Necessaire,Acessórios,1139.99,1142.84,1082.99,1174.19,4,1.0,Intermediário,63668.43
+prd_9239eec8982d,HD Externo 2TB,Informática,51.99,52.12,50.95,53.55,4,1.0,Intermediário,3738.06
+prd_faf3fd1a4155,Cinto de Couro,Acessórios,102.9,103.16,100.84,105.99,4,1.0,Intermediário,1286.2
+prd_f6a0a3346af9,Carteira de Couro,Acessórios,273.9,274.58,251.99,290.33,4,1.0,Intermediário,547.8
+prd_90725b7ac0e8,Espelho de Parede,Casa,78.99,79.19,72.67,83.73,4,1.0,Intermediário,537.13
+prd_651e8d1acbf8,Processador de Alimentos,Cozinha,464.9,466.45,455.6,478.85,3,1.0,Intermediário,7554.61
+prd_473cb7923d3d,Kit Gamer Completo,Games,109.9,110.27,101.11,116.49,3,1.0,Intermediário,653.91
+prd_899bd21840eb,Mixer de Áudio,Áudio,53.5,53.64,52.43,55.11,4,1.0,Intermediário,540.35
+prd_5744e3f88341,Jarra de Vidro,Cozinha,192.9,193.54,189.04,198.69,3,1.0,Intermediário,1986.89
+prd_359246d9ed10,SSD 500GB,Eletrônicos,118.99,119.39,113.04,126.13,3,1.0,Intermediário,1053.06
+prd_686e2aab873d,Blusa de Frio,Moda,89.5,89.72,87.71,92.19,4,1.0,Intermediário,9589.86
+prd_f063f46a7ef8,Fone de Ouvido Esportivo,Áudio,1428.99,1436.14,1400.41,1471.86,2,1.0,Intermediário,114268.47
+prd_fd706b862db2,Cinto de Couro,Acessórios,584.99,587.92,573.29,620.09,4,1.0,Intermediário,0.0
+prd_00f202452062,Espelho de Parede,Casa,170.9,171.76,167.48,176.03,4,1.0,Intermediário,0.0
+prd_82cd17cb589d,Persiana Vertical,Casa,44.9,45.12,42.65,47.59,4,1.0,Intermediário,3111.46
+prd_2cbafff50c72,Sabonete Facial,Beleza,100.9,101.4,95.86,106.95,4,1.0,Intermediário,10826.78
+prd_9f5272275347,Marcador de Texto,Acessórios,59.5,59.8,54.74,65.45,4,1.0,Intermediário,981.74
+prd_206eacaa3048,Joystick Arcade,Games,116.99,117.58,111.14,124.01,4,1.0,Intermediário,772.13
+prd_e3934c71bd0c,Meia Esportiva,Esporte,391.9,394.51,384.06,415.41,3,0.99,Intermediário,1822.33
+prd_d8ec0b81e223,Toca-discos USB,Áudio,371.9,374.38,364.46,394.21,3,0.99,Intermediário,2454.53
+prd_c1f6dcbed826,Descascador de Legumes,Cozinha,192.9,194.18,189.04,204.47,3,0.99,Intermediário,2758.49
+prd_728d12065bf5,Suporte para Monitor,Informática,430.0,433.22,408.5,473.0,4,0.99,Intermediário,2515.5
+prd_645f7859f379,Calça Jeans Skinny,Moda,486.9,491.77,462.55,516.11,4,0.99,Intermediário,41313.34
+prd_6742b65088d8,Porta-temperos,Cozinha,41.99,42.41,41.99,43.25,3,0.99,Intermediário,440.89
+prd_a17c779dd289,Gravador de Voz,Áudio,64.9,65.55,61.66,71.39,3,0.99,Intermediário,869.68
+prd_22f73233f9a5,Notebook Inspiron 15,Eletrônicos,103.9,104.94,98.7,114.29,3,0.99,Intermediário,1293.54
+prd_afd58e5fd09d,Condicionador Hidratante,Beleza,451.9,457.55,442.86,479.01,4,0.99,Intermediário,31587.75
+prd_205f309c1a21,Tapete Persa,Casa,34.99,35.43,32.19,38.49,4,0.99,Intermediário,3035.35
+prd_40dc70ce05b2,Assadeira de Vidro,Cozinha,1310.5,1326.88,1284.29,1389.13,4,0.99,Intermediário,11663.44
+prd_a7c360e156c0,Gabinete ATX,Informática,171.99,174.14,163.39,189.19,4,0.99,Intermediário,662.16
+prd_9d1aea4d28ae,Pesos de Pulso,Esporte,1324.9,1341.46,1298.4,1404.39,4,0.99,Intermediário,6094.54
+prd_76ede0cece8f,Óculos de Natação,Esporte,58.0,58.77,56.84,61.48,3,0.99,Intermediário,504.6
+prd_e561d57f2a21,Caixa de Som 2.1,Áudio,116.99,118.55,114.65,120.5,3,0.99,Intermediário,2129.21
+prd_f8e027f417be,Placa Mãe B450,Informática,180.9,183.31,177.28,186.33,3,0.99,Intermediário,859.26
+prd_11a9489c4c86,Porta-retrato,Casa,74.99,75.99,71.24,79.49,3,0.99,Intermediário,348.7
+prd_18c839427e8c,Gabinete ATX,Informática,798.9,810.88,758.95,878.79,4,0.98,Intermediário,8668.06
+prd_ea6b930ce9ac,Gravador de Voz,Áudio,156.99,159.34,156.99,161.7,2,0.98,Intermediário,1569.9
+prd_96fbc500aec1,Edredom Casal,Casa,58.9,59.78,54.19,64.79,4,0.98,Intermediário,644.95
+prd_51511e44c92a,Kit Gamer Completo,Games,88.9,90.24,88.9,91.57,4,0.98,Intermediário,8129.85
+prd_a479149bae3b,Edredom Casal,Casa,87.99,89.46,83.59,96.79,3,0.98,Intermediário,607.13
+prd_08fc82e8b75d,Persiana Vertical,Casa,137.9,140.31,131.0,146.17,4,0.98,Intermediário,1475.51
+prd_533e5e22d86e,Rádio AM/FM,Áudio,337.99,343.9,331.23,358.27,4,0.98,Intermediário,0.0
+prd_30518d908a92,Cinto de Couro,Acessórios,80.99,82.41,76.94,85.85,4,0.98,Intermediário,8410.78
+prd_b17460641fb4,Garrafa Térmica 1L,Cozinha,239.99,244.79,235.19,263.99,3,0.98,Intermediário,2723.88
+prd_c9ce9d378723,Processador Intel i5,Informática,41.9,42.74,39.8,46.09,4,0.98,Intermediário,324.71
+prd_abc44b46bee1,Sabonete Facial,Beleza,149.9,152.9,137.91,164.89,4,0.98,Intermediário,442.21
+prd_032c166122f7,Controle Xbox,Games,219.9,224.3,219.9,226.5,3,0.98,Intermediário,3573.39
+prd_9b6e92e0766c,Casaco de Inverno,Moda,35.9,36.62,35.9,36.98,3,0.98,Intermediário,357.19
+prd_8b22fd85d500,Garrafa Térmica 1L,Cozinha,324.99,331.49,324.99,344.49,3,0.98,Intermediário,21498.06
+prd_e772a9cda46d,Blusa de Algodão,Moda,36.9,37.64,36.16,40.59,4,0.98,Intermediário,138.37
+prd_694bd92302c1,Gabinete ATX,Informática,92.9,94.76,92.9,98.47,3,0.98,Intermediário,1491.04
+prd_6f0a4eefed22,Faqueiro Inox 12 Peças,Cozinha,39.99,40.79,37.99,43.99,4,0.98,Intermediário,393.9
+prd_89d76b194110,Travesseiro Ortopédico,Casa,179.99,183.59,179.99,190.79,3,0.98,Intermediário,1214.93
+prd_f77140ad51ec,Edredom Casal,Casa,95.9,98.06,95.9,98.78,4,0.98,Intermediário,0.0
+prd_996db03524ae,Elástico de Resistência,Esporte,123.9,126.69,123.9,127.62,4,0.98,Intermediário,2093.9
+prd_474405dcce41,Brincos de Prata,Acessórios,67.9,69.43,66.54,74.69,4,0.98,Intermediário,614.49
+prd_92c0ecf60a58,Jogo de Toalhas,Casa,180.9,185.12,171.85,191.75,3,0.98,Intermediário,12011.76
+prd_045813f96891,Cardigan de Lã,Moda,142.99,146.56,135.84,157.29,2,0.98,Intermediário,13898.58
+prd_bc0258300d50,Assadeira de Vidro,Cozinha,35.99,36.89,35.27,38.15,4,0.98,Intermediário,0.0
+prd_6185cee255bc,Caixa de Som 2.1,Áudio,107.9,110.78,105.74,118.69,3,0.97,Intermediário,318.3
+prd_ff56c9132964,Regata Básica,Moda,213.99,220.41,213.99,226.83,3,0.97,Intermediário,4140.7
+prd_727f175116c6,Bicicleta Ergométrica,Esporte,63.9,65.82,63.9,67.73,3,0.97,Intermediário,638.99
+prd_6442b103f637,Adaptador HDMI-VGA,Informática,299.9,309.89,293.9,317.89,3,0.97,Intermediário,1454.51
+prd_9d7b9035daa0,Forma de Bolo Redonda,Cozinha,191.9,198.29,188.06,203.41,3,0.97,Intermediário,2811.36
+prd_622325b011e6,Iluminador para Stream,Games,323.9,334.69,317.42,343.33,3,0.97,Intermediário,2720.76
+prd_2befc441dd56,Bicicleta Ergométrica,Esporte,228.99,236.62,228.99,251.89,3,0.97,Intermediário,1957.86
+prd_3fb63c4ea3c2,Óculos de Sol,Acessórios,164.99,170.49,164.99,181.49,3,0.97,Intermediário,998.19
+prd_c29b93111bd9,Colar de Ouro,Acessórios,206.9,214.14,202.76,227.59,4,0.97,Intermediário,3713.87
+prd_d92ad43fa137,Smart TV 43 Polegadas,Eletrônicos,66.9,69.35,63.55,73.59,3,0.96,Intermediário,6325.38
+prd_64000b956cf3,Tapete Persa,Casa,258.9,269.25,253.72,274.43,4,0.96,Intermediário,3093.85
+prd_8fa1119d3982,Roteador Wi-Fi 6,Eletrônicos,39.9,41.63,39.9,43.89,3,0.96,Intermediário,231.42
+prd_d51f590876b9,Boné Esportivo,Esporte,58.9,61.55,60.67,62.43,2,0.96,Mais barato que todos,521.26
+prd_3dd1d39581ca,Halteres Ajustáveis,Esporte,52.99,55.51,52.99,58.29,4,0.96,Intermediário,389.47
+prd_b4a823952be5,Amplificador de Áudio,Áudio,73.9,77.59,72.42,81.29,4,0.95,Intermediário,727.91
+prd_2bf8388221ea,Mouse Gamer RGB,Games,49.99,52.49,49.99,54.99,2,0.95,Intermediário,579.88
+prd_815b38747487,Conjunto de Malha,Moda,86.5,90.82,89.09,91.69,3,0.95,Mais barato que todos,1029.33
+prd_9a3dfc23b7a3,Relógio Analógico,Acessórios,105.5,111.83,111.83,111.83,2,0.94,Mais barato que todos,1840.95
+prd_47a25ae10c23,Soundbar TV,Áudio,88.99,94.33,87.21,97.89,3,0.94,Intermediário,1610.71
+prd_4e1abbd002eb,Mochila Esportiva,Esporte,44.9,47.59,44.0,49.39,4,0.94,Intermediário,617.36
+prd_31b74a170d35,Saia Midi,Moda,72.9,77.27,77.27,77.27,1,0.94,Mais barato que todos,338.99
+prd_380fab5d7131,Porta-retrato,Casa,142.9,151.47,151.47,151.47,3,0.94,Mais barato que todos,2114.92
+prd_295160cbf171,Controle Xbox,Games,310.9,333.7,329.55,341.99,3,0.93,Mais barato que todos,2844.71

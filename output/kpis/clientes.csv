@@ -1,0 +1,51 @@
+id_cliente,nome_cliente,estado,pedidos,receita,ticket_medio,recencia_dias,dias_cadastro_ate_1a_compra,cliente_novo_no_periodo
+cus_2b1b3e2a1515,Ana Sophia Pereira,MG,53,30716.63,579.56,0,301,False
+cus_25d1cb23f872,Melissa Pastor,AC,68,30211.93,444.29,0,206,False
+cus_fa3a88d1ccef,Dr. Benício Gomes,AL,72,27424.23,380.89,0,1077,False
+cus_f64907d41a69,Henrique da Conceição,DF,77,26687.99,346.6,0,368,False
+cus_c3944101594c,Murilo da Mata,RR,81,26091.64,322.12,0,967,False
+cus_b0026583b709,Dra. Mariane Pacheco,MT,73,25454.83,348.7,1,1023,False
+cus_4e62d52db97a,Josué Souza,RJ,50,24750.17,495.0,1,615,False
+cus_c9cd13d1ae9f,Srta. Yasmin Siqueira,PA,53,23674.1,446.68,0,455,False
+cus_3580317ddeab,Bella Borges,AM,57,22865.99,401.16,0,340,False
+cus_0343c0763f76,Vitor Gabriel da Luz,RS,65,22734.53,349.76,0,936,False
+cus_71308b76151a,Srta. Amanda Sousa,MS,63,21960.13,348.57,0,802,False
+cus_cf84750c1fb4,Alana Teixeira,MA,61,21609.35,354.25,0,1077,False
+cus_96658dc10aa5,Agatha Silveira,PA,66,21445.08,324.93,0,272,False
+cus_66677d443e5e,Cecília da Luz,AC,64,21335.05,333.36,0,866,False
+cus_f50da5532735,João Gabriel Porto,MG,57,21238.95,372.61,0,481,False
+cus_7262f4e5ce9f,Sophia Monteiro,SP,62,21205.9,342.03,1,596,False
+cus_31874cf2d1e5,Nina Moura,SP,59,21109.53,357.79,0,1040,False
+cus_25c656241a9a,Amanda Novais,GO,54,21009.39,389.06,0,995,False
+cus_d4db3db9eccb,Ana Julia Camargo,PB,59,20861.16,353.58,1,492,False
+cus_eae005fd3470,Calebe Fogaça,TO,60,20596.14,343.27,0,746,False
+cus_13af118ef4e8,Sra. Sarah Teixeira,AM,65,20065.6,308.7,0,358,False
+cus_9d2dd4770a79,Luigi Camargo,GO,60,20052.82,334.21,0,138,False
+cus_ec8d75866856,Sr. Luan Vargas,RS,74,19671.39,265.83,0,57,False
+cus_78ab1cf16e12,Beatriz Garcia,SE,61,19530.47,320.17,0,511,False
+cus_f1a06ae11717,Gustavo Henrique Rios,AM,63,19185.31,304.53,1,328,False
+cus_b42a15933072,Dr. Heitor Rezende,PE,68,19024.24,279.77,0,161,False
+cus_508a15ccf0fa,Sra. Zoe Campos,MT,55,19000.14,345.46,0,919,False
+cus_6ff11137142d,Sr. Vitor Gabriel Sá,TO,63,18722.52,297.18,0,764,False
+cus_a01814ad9247,Ana Beatriz Alves,SP,59,18583.2,314.97,0,1041,False
+cus_0ff4cceccc6f,João Aparecida,CE,53,18436.2,347.85,0,909,False
+cus_8fa04d3a5837,Rafael Porto,RS,64,18321.18,286.27,0,760,False
+cus_8ad3c8745efb,Eduardo Cunha,AC,58,18286.8,315.29,0,370,False
+cus_c8d383cfde0c,Maria Cecília Oliveira,AM,55,17357.77,315.6,0,1168,False
+cus_79d52b75f259,Elisa Freitas,CE,55,17289.51,314.35,0,1056,False
+cus_1a38731e1fbe,Otávio Fernandes,ES,62,17163.3,276.83,0,269,False
+cus_a8f8e01eaee8,Elisa Martins,ES,71,16924.67,238.38,0,848,False
+cus_a9747473c5c6,Ana Lívia Aparecida,AL,71,16915.97,238.25,0,782,False
+cus_f1eccf8e0d99,Luiz Miguel Câmara,GO,55,16836.38,306.12,0,1055,False
+cus_d36c11b261a6,Cauã Rocha,MA,62,16563.85,267.16,0,671,False
+cus_418af67b6b28,Miguel Ramos,TO,56,16550.54,295.55,0,307,False
+cus_d2762f5968fe,Dra. Aurora Pastor,SE,59,15435.67,261.62,0,1077,False
+cus_4209c24e0be2,Maya Castro,TO,56,15186.43,271.19,0,212,False
+cus_911b23c97589,Heitor Nunes,MS,53,15121.01,285.3,0,962,False
+cus_639110db69ed,Sr. João Vitor Barros,AP,60,14425.28,240.42,0,331,False
+cus_a2e18141f826,Ísis Leão,CE,63,13407.52,212.82,0,317,False
+cus_644bf6820c61,Heloísa Andrade,PR,48,13316.83,277.43,0,686,False
+cus_36595eecf105,Bruno Novaes,PA,58,13169.93,227.07,0,960,False
+cus_0914bdf6e1fe,Isabelly Câmara,MT,36,12976.16,360.45,1,174,False
+cus_884be6e0ce9a,Emanuel Vieira,PA,49,11714.4,239.07,0,175,False
+cus_df9e0b31fa20,Yuri Albuquerque,SE,54,9665.29,178.99,2,962,False
