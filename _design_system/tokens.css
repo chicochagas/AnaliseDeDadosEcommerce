@@ -1,0 +1,116 @@
+/*
+ * Retiro Tech — design tokens
+ * Gerado a partir do design system "Retiro Tech" (tokens.json, versão 2).
+ * Importe uma vez no ponto de entrada do projeto:
+ *   @import "./design-system/tokens.css";
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap");
+
+:root {
+  /* ---------- Cores ---------- */
+  --background: #F8FAFC;        /* Fundo da página */
+  --card: #FFFFFF;              /* Superfícies elevadas: cards, formulário, folha do plano */
+  --foreground: #1E293B;        /* Texto principal (14:1 em background) */
+  --muted-foreground: #475569;  /* Texto secundário, legendas, borda de campos (6.6:1+) */
+  --primary: #2563EB;           /* Marca: botão primário, links, eyebrows, marcadores (4.9:1) */
+  --on-primary: #FFFFFF;        /* Texto/ícones sobre primary e primary-strong */
+  --primary-strong: #1D4ED8;    /* Hover do primary, texto de marca sobre muted, faixa do CTA final */
+  --muted: #E9EFF8;             /* Fundo de seção alternado, destaque suave */
+  --accent: #EA580C;            /* CTA de inscrição e meta (semana 13). Só preenchimento, nunca texto */
+  --on-accent: #000000;         /* Texto sobre accent (5.9:1) */
+  --border: #E2E8F0;            /* Divisores e bordas de card (decorativo) */
+  --destructive: #DC2626;       /* Erros de formulário */
+  --ring: var(--primary);       /* Anel de foco do teclado */
+
+  /* ---------- Famílias ---------- */
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Work Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* ---------- Espaçamento ---------- */
+  --space-2: 8px;    /* Entre rótulo e campo, ícone e texto */
+  --space-4: 16px;   /* Padding de botões e tags; gutter entre cards */
+  --space-6: 24px;   /* Padding de card; título → texto */
+  --space-12: 48px;  /* Respiro entre seções */
+
+  /* ---------- Raios ---------- */
+  --radius-sm: 4px;     /* Tags, campos, marcadores pequenos */
+  --radius-md: 12px;    /* Cards, botões, blocos de destaque */
+  --radius-pill: 999px; /* Chips de data/turma e CTA de inscrição */
+
+  /* ---------- Movimento ---------- */
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+}
+
+/* ---------- Estilos de texto ---------- */
+
+.text-display {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-heading {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.text-subheading {
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.text-body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-caption {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.text-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+/* ---------- Base ---------- */
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
